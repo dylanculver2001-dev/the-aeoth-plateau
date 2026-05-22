@@ -1,154 +1,594 @@
 "use client";
 
 import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
+
 import { races } from "@/data/races";
 
 export default function RacesView() {
+  const [activeIndex, setActiveIndex] =
+    useState(0);
+
+  const selectedRace = races[activeIndex];
+
+  const nextRace = () => {
+    setActiveIndex((prev) =>
+      prev === races.length - 1
+        ? 0
+        : prev + 1
+    );
+  };
+
+  const previousRace = () => {
+    setActiveIndex((prev) =>
+      prev === 0
+        ? races.length - 1
+        : prev - 1
+    );
+  };
+
   return (
-    <div className="w-full h-full overflow-y-auto p-10 relative animate-in fade-in duration-500">
+    <motion.div
+      animate={{
+        background:
+          selectedRace.background,
+      }}
+      transition={{
+        duration: 1.2,
+      }}
+      className="
+        relative
+        w-full
+        h-full
+        overflow-hidden
+        rounded-[2rem]
+      "
+    >
 
       {/* BACKGROUND ATMOSPHERE */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
+      <AnimatePresence mode="wait">
 
-        <div className="absolute top-[10%] left-[5%] w-[700px] h-[700px] bg-emerald-500/10 rounded-full blur-3xl animate-[floatUltraSlow_50s_ease-in-out_infinite]" />
+        <motion.div
+          key={selectedRace.id}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1 }}
+          className="absolute inset-0 overflow-hidden"
+        >
 
-        <div className="absolute bottom-[0%] right-[0%] w-[800px] h-[800px] bg-orange-500/10 rounded-full blur-3xl animate-[floatUltraSlowReverse_60s_ease-in-out_infinite]" />
-
-      </div>
-
-      {/* RACE DOSSIERS */}
-      <div className="flex flex-col gap-10 relative z-10">
-
-        {races.map((race) => (
-
+          {/* PRIMARY GLOW */}
           <div
-            key={race.id}
-            className="group relative overflow-hidden rounded-[2rem] border border-zinc-700/40 bg-zinc-900/55 backdrop-blur-xl shadow-2xl transition-all duration-700 hover:-translate-y-1 hover:border-zinc-500/40"
+            className={`
+              absolute
+              inset-0
+              opacity-20
+              blur-2xl
+
+              ${selectedRace.backgroundGlow}
+            `}
+          />
+
+          {/* FLOATING BOKEH GLOWS */}
+          {[...Array(8)].map((_, i) => (
+            <motion.div
+              key={i}
+              animate={{
+                y: [0, -20, 0],
+                x: [0, 10, 0],
+                scale: [1, 1.08, 1],
+              }}
+              transition={{
+                duration: 8 + i * 2,
+                repeat: Infinity,
+                ease: "easeInOut",
+                delay: i * 0.4,
+              }}
+              className={`
+                absolute
+                rounded-full
+                blur-2xl
+
+                ${
+                  i % 2 === 0
+                    ? selectedRace.orb
+                    : selectedRace.orbSecondary
+                }
+              `}
+              style={{
+                width: `${180 + i * 45}px`,
+                height: `${180 + i * 45}px`,
+                top: `${5 + (i * 12) % 75}%`,
+                left: `${5 + (i * 13) % 85}%`,
+              }}
+            />
+          ))}
+
+          {/* VIGNETTE */}
+          <div className="absolute inset-0 shadow-[inset_0_0_140px_rgba(0,0,0,0.65)]" />
+
+          {/* NOISE */}
+          <div className="absolute inset-0 bg-[url('/noise.png')] opacity-[0.04]" />
+
+        </motion.div>
+
+      </AnimatePresence>
+
+      {/* MAIN CONTENT */}
+      <div
+        className="
+          relative
+          z-20
+          w-full
+          max-w-[1600px]
+          h-full
+          mx-auto
+          flex
+          items-center
+          justify-center
+          px-10
+          xl:px-16
+        "
+      >
+
+        <AnimatePresence mode="wait">
+
+          <motion.div
+            key={selectedRace.id}
+            initial={{
+              opacity: 0,
+              y: 30,
+            }}
+            animate={{
+              opacity: 1,
+              y: 0,
+            }}
+            exit={{
+              opacity: 0,
+              y: -30,
+            }}
+            transition={{
+              duration: 0.7,
+              ease: "easeOut",
+            }}
+            className="
+              w-full
+              flex
+              flex-col
+              xl:flex-row
+              items-center
+              justify-between
+              gap-12
+              xl:gap-16
+            "
           >
 
-            {/* INNER LIGHT */}
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+            {/* LEFT SIDE */}
+            <div className="flex-1 flex items-center justify-center">
 
-              <div className="absolute top-[-20%] right-[-10%] w-[400px] h-[400px] bg-white/5 rounded-full blur-3xl" />
+              <div className="relative flex items-center justify-center">
 
-            </div>
+                {/* GLOW */}
+                <div
+                  className={`
+                    absolute
+                    w-[500px]
+                    h-[500px]
+                    rounded-[3rem]
+                    blur-3xl
+                    opacity-30
 
-            <div className="flex flex-col lg:flex-row">
+                    ${selectedRace.glow}
+                  `}
+                />
 
-              {/* IMAGE PANEL */}
-              <div className="relative lg:w-[340px] xl:w-[420px] shrink-0 overflow-hidden">
+                {/* OUTER ARCANE FRAME */}
+                <motion.div
+                  animate={{
+                    rotate: 360,
+                  }}
+                  transition={{
+                    duration: 40,
+                    repeat: Infinity,
+                    ease: "linear",
+                  }}
+                  className={`
+                    absolute
+                    w-[500px]
+                    h-[500px]
+                    rounded-[3rem]
+                    border
+                    opacity-10
+                    pointer-events-none
 
-                <div className="relative w-full h-[420px] lg:h-full">
+                    ${selectedRace.divider.replace("bg", "border")}
+                  `}
+                />
 
-                  <Image
-                    src={race.image}
-                    alt={race.name}
-                    fill
-                    className="object-cover transition-transform duration-[1400ms] group-hover:scale-105"
+                {/* INNER ARCANE FRAME */}
+                <motion.div
+                  animate={{
+                    rotate: -360,
+                  }}
+                  transition={{
+                    duration: 60,
+                    repeat: Infinity,
+                    ease: "linear",
+                  }}
+                  className={`
+                    absolute
+                    w-[460px]
+                    h-[460px]
+                    rounded-[2.5rem]
+                    border
+                    opacity-20
+                    pointer-events-none
+
+                    ${selectedRace.divider.replace("bg", "border")}
+                  `}
+                />
+
+                {/* IMAGE */}
+                <motion.div
+                  whileHover={{
+                    scale: 1.02,
+                    y: -4,
+                  }}
+                  whileTap={{
+                    scale: 0.99,
+                  }}
+                  transition={{
+                    duration: 0.25,
+                  }}
+                  className="
+                    relative
+                    w-[28vw]
+                    max-w-[440px]
+                    min-w-[300px]
+                    aspect-square
+                    rounded-[2rem]
+                    overflow-hidden
+                    z-20
+                  "
+                >
+
+                  {/* HIGHLIGHT */}
+                  <div
+                    className="
+                      absolute
+                      inset-0
+                      z-30
+                      rounded-[2rem]
+                      pointer-events-none
+                      bg-gradient-to-br
+                      from-white/10
+                      via-transparent
+                      to-black/20
+                    "
                   />
 
-                  {/* IMAGE OVERLAY */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-black/10 via-transparent to-black/40" />
+                  {/* EDGE SHADOW */}
+                  <div
+                    className="
+                      absolute
+                      inset-0
+                      z-20
+                      rounded-[2rem]
+                      shadow-[inset_0_0_60px_rgba(0,0,0,0.35)]
+                      pointer-events-none
+                    "
+                  />
 
-                </div>
+                  <Image
+                    src={selectedRace.image}
+                    alt={selectedRace.name}
+                    fill
+                    unoptimized
+                    draggable={false}
+                    className="
+                      object-cover
+                      rounded-[2rem]
+                      select-none
+                    "
+                  />
 
-              </div>
-
-              {/* CONTENT */}
-              <div className="flex-1 p-8 lg:p-10 flex flex-col justify-center relative">
-
-                {/* FAINT TOP LINE */}
-                <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-
-                {/* TITLE */}
-                <div>
-
-                  <h2 className="text-5xl xl:text-6xl font-serif tracking-wide text-white">
-
-                    {race.name}
-
-                  </h2>
-
-                  <p className="mt-3 text-zinc-400 italic text-xl">
-
-                    {race.title}
-
-                  </p>
-
-                </div>
-
-                {/* DIVIDER */}
-                <div className="w-20 h-[2px] bg-zinc-600 mt-6 rounded-full" />
-
-                {/* INFO GRID */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
-
-                  {/* TRAITS */}
-                  <div>
-
-                    <h3 className="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-3">
-
-                      Traits
-
-                    </h3>
-
-                    <p className="text-zinc-300 leading-relaxed text-lg">
-
-                      {race.traits}
-
-                    </p>
-
-                  </div>
-
-                  {/* HOMELAND */}
-                  <div>
-
-                    <h3 className="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-3">
-
-                      Homeland
-
-                    </h3>
-
-                    <p className="text-zinc-300 leading-relaxed text-lg">
-
-                      {race.homeland}
-
-                    </p>
-
-                  </div>
-
-                </div>
-
-                {/* DESCRIPTION */}
-                <div className="mt-10">
-
-                  <h3 className="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-4">
-
-                    Description
-
-                  </h3>
-
-                  <p className="text-zinc-300 whitespace-pre-line leading-[2rem] text-lg max-w-4xl">
-
-                    {race.description}
-
-                  </p>
-
-                </div>
-
-                {/* DECORATIVE BOTTOM LINE */}
-                <div className="mt-10 w-full h-px bg-gradient-to-r from-white/10 via-white/5 to-transparent" />
+                </motion.div>
 
               </div>
 
             </div>
+
+            {/* RIGHT SIDE */}
+            <div
+              className="
+                w-[460px]
+                min-w-[460px]
+                flex
+                flex-col
+                gap-5
+                relative
+                -translate-y-6
+              "
+            >
+
+              {/* TITLE BOX */}
+              <div
+                className={`
+                  relative
+                  rounded-[2rem]
+                  border
+                  px-8
+                  pt-7
+                  pb-6
+                  backdrop-blur-2xl
+                  backdrop-saturate-150
+                  shadow-2xl
+
+                  ${selectedRace.panel}
+                `}
+              >
+
+                {/* TITLE BOX GLOW */}
+                <div
+                  className={`
+                    absolute
+                    inset-0
+                    opacity-10
+                    blur-2xl
+                    rounded-[2rem]
+
+                    ${selectedRace.backgroundGlow}
+                  `}
+                />
+
+                <div className="relative z-10">
+
+                  {/* RACE NAME */}
+                  <motion.h1
+                    initial={{
+                      opacity: 0,
+                      y: 10,
+                    }}
+                    animate={{
+                      opacity: 1,
+                      y: 0,
+                    }}
+                    transition={{
+                      delay: 0.1,
+                    }}
+                    className={`
+                      text-5xl
+                      font-serif
+                      mb-5
+
+                      ${selectedRace.titleColor}
+                    `}
+                  >
+                    {selectedRace.name}
+                  </motion.h1>
+
+                  {/* SUBTITLE */}
+                  <motion.p
+                    initial={{
+                      opacity: 0,
+                    }}
+                    animate={{
+                      opacity: 1,
+                    }}
+                    transition={{
+                      delay: 0.15,
+                    }}
+                    className={`
+                      text-[11px]
+                      uppercase
+                      tracking-[0.4em]
+
+                      ${selectedRace.accent}
+                    `}
+                  >
+                    {selectedRace.subtitle}
+                  </motion.p>
+
+                </div>
+
+              </div>
+
+              {/* INFO BOX */}
+              <div
+                className={`
+                  relative
+                  max-h-[58vh]
+                  overflow-y-auto
+                  overflow-x-hidden
+                  rounded-[2rem]
+                  border
+                  backdrop-blur-2xl
+                  backdrop-saturate-150
+                  shadow-2xl
+
+                  ${selectedRace.panel}
+                `}
+              >
+
+                {/* INFO BOX GLOW */}
+                <div
+                  className={`
+                    absolute
+                    inset-0
+                    opacity-10
+                    blur-2xl
+                    rounded-[2rem]
+
+                    ${selectedRace.backgroundGlow}
+                  `}
+                />
+
+                <div className="relative z-10 p-8">
+
+                  {/* ABOUT */}
+                  <section className="mb-8">
+
+                    <h3 className="text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-4">
+                      About
+                    </h3>
+
+                    <p className="text-[13px] leading-relaxed text-zinc-300">
+                      {selectedRace.about}
+                    </p>
+
+                  </section>
+
+                  {/* HISTORY */}
+                  <section className="mb-8">
+
+                    <h3 className="text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-4">
+                      History
+                    </h3>
+
+                    <p className="text-[13px] leading-relaxed text-zinc-300">
+                      {selectedRace.history}
+                    </p>
+
+                  </section>
+
+                  {/* LOCATIONS */}
+                  <section className="mb-8">
+
+                    <h3 className="text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-4">
+                      Locations
+                    </h3>
+
+                    <p className="text-[13px] leading-relaxed text-zinc-300">
+                      {selectedRace.locations}
+                    </p>
+
+                  </section>
+
+                  {/* DIALECT */}
+                  <section>
+
+                    <h3 className="text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-4">
+                      Dialect
+                    </h3>
+
+                    <p className="text-[13px] leading-relaxed text-zinc-300">
+                      {selectedRace.dialect}
+                    </p>
+
+                  </section>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </motion.div>
+
+          {/* GLOBAL NAVIGATION */}
+          <div
+            className="
+              absolute
+              bottom-8
+              left-1/2
+              -translate-x-1/2
+              z-40
+              flex
+              items-center
+              justify-center
+              gap-6
+            "
+          >
+
+            {/* LEFT */}
+            <button
+              onClick={previousRace}
+              className="
+                w-12
+                h-12
+                rounded-full
+                border
+                border-white/10
+                bg-white/5
+                backdrop-blur-xl
+                text-white/70
+                text-lg
+                transition-all
+                duration-300
+                hover:scale-105
+                hover:bg-white/10
+                hover:text-white
+              "
+            >
+              ←
+            </button>
+
+            {/* RACE SIGILS */}
+            <div className="flex items-center gap-2">
+
+              {races.map((race, index) => {
+                const active =
+                  activeIndex === index;
+
+                return (
+                  <button
+                    key={race.id}
+                    onClick={() =>
+                      setActiveIndex(index)
+                    }
+                    className={`
+                      relative
+                      w-3
+                      h-3
+                      rounded-full
+                      transition-all
+                      duration-500
+
+                      ${
+                        active
+                          ? `
+                            scale-150
+                            ${race.glow}
+                          `
+                          : "bg-white/20 hover:bg-white/40"
+                      }
+                    `}
+                  />
+                );
+              })}
+
+            </div>
+
+            {/* RIGHT */}
+            <button
+              onClick={nextRace}
+              className="
+                w-12
+                h-12
+                rounded-full
+                border
+                border-white/10
+                bg-white/5
+                backdrop-blur-xl
+                text-white/70
+                text-lg
+                transition-all
+                duration-300
+                hover:scale-105
+                hover:bg-white/10
+                hover:text-white
+              "
+            >
+              →
+            </button>
 
           </div>
 
-        ))}
+        </AnimatePresence>
 
       </div>
 
-    </div>
+    </motion.div>
   );
 }

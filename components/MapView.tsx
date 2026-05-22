@@ -52,7 +52,7 @@ export default function MapView() {
           {/* CLOSE BUTTON */}
           <button
             onClick={() => setSelectedLocation(null)}
-            className="absolute top-5 right-5 z-20 w-10 h-10 rounded-full border border-white/10 bg-black/40 flex items-center justify-center text-zinc-300 hover:text-white hover:bg-white/10 transition-all duration-300 hover:scale-110 active:scale-95"
+            className="absolute top-5 right-5 z-20 w-10 h-10 rounded-full border border-white/10 bg-black/40 flex items-center justify-center text-zinc-300 hover:text-white hover:bg-white/10 transition-all duration-300 hover:scale-90 active:scale-95"
           >
             <X className="w-4 h-4" />
           </button>
@@ -247,8 +247,8 @@ export default function MapView() {
                       <div
                         className={`
                           absolute
-                          w-40
-                          h-40
+                          w-20
+                          h-20
                           rounded-full
                           blur-3xl
                           opacity-40

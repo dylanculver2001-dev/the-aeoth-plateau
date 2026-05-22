@@ -254,7 +254,7 @@ export const locations = [
 
       Rudder Knickknacks
 
-      Rudder used to be a glorious Mountain Dwarf warlord, though since his unfortunate demise several centuries ago, his rebirth as an Ombrask left him with a completely new personality. Now, he seeks solace in his forge… unsuccessfully. His reputation as a skilled arcanomagic blacksmith precedes him. He has worked extensively with High Astrologer Abacus in the development of arcane tools and though he can be grouchy and apathetic, his somewhat shady moral compass tents to drive him towards good deeds. Rudder stands 6 feet tall and is generally seen wearing a heavy-duty leather apron and gloves, with stained commoner clothes underneath. Despite this, he is one of the richest people in The Observatory, with businesspeople from all over the land travelling to pay for new inventions and invest in his company: Knickknacks LTD.
+      Rudder used to be a glorious Mountain Dwarf warlord, though since his unfortunate demise several centuries ago, his rebirth as an Ombrask left him with a completely new personality. Now, he seeks solace in his forge… unsuccessfully. His reputation as a skilled arcanomagic blacksmith precedes him. He has worked extensively with High Astrologer Abacus in the development of arcane tools and though he can be grouchy and apathetic, his somewhat shady moral compass tends to drive him towards good deeds. Rudder stands 6 feet tall and is generally seen wearing a heavy-duty leather apron and gloves, with stained commoner clothes underneath. Despite this, he is one of the richest people in The Observatory, with businesspeople from all over the land travelling to pay for new inventions and invest in his company: Knickknacks LTD.
       `,
 
       dangerLevel: "28%",
@@ -548,15 +548,52 @@ export const locations = [
       name: "Frester",
       type: "city",
 
-      description:
-        "Ancient dwarven fortress carved into the mountains.",
-      lore:
-        "",
+      image: "/locations/frester.png",
 
-      ruler:
-        "",
+      description:`
+      Frester was once a frozen wasteland of endless ice, harsh blizzards and towering frosty spires. Since the Great Stagnation though, geothermal faults beneath the land began to thaw the ice, as the snowstorms that had reigned for centuries started dying out, transforming the landscape into a contrasting kingdom of vastly different biomes living next to each other. In terms of its civilisation, the land is still in very young when compared to the rich history of most of the western realms. That being said, many suspect that the land may be older than previously thought, due to the prevalence of ancient giant reptiles that are being called “dinosaurs”. Scholars and adventurers are still trying to explore and map this land, though due to the lack of information possessed, venturing outside the city walls can be incredibly perilous.
 
-      dangerLevel: "Low",
+      There are three main biomes that can be found throughout Frester:
+
+      Icy tundra still reigns through much of the land, including the Fresterian capital. Snowstorms rage, though not as harshly as those in Shivvering. Giant ice stalagmites rise from the frozen snowscape, towering above lush jungles and rocky volcanic microcosms. Mammoths roam these areas and small villages of Pengkin and Rusnbjørne make their living fishing between the icy glaciers. Many of these villages have very little contact with the outside world, leaving some scholars believing that there may be ancient civilisations in these lands that have not yet been met by modern society.
+
+      The thawing of the ice slowly revealed volcanic lowlands. Geysers shoot from rock pools, black smoke billows into the sky and the air is thick with the steam of vaporised snow. These areas are extremely environmentally hostile and as such, harbour few wildlife populations. However, the volcanic minerals in the soil have given a perfect habitat for new species of vibrant flora. Most of these volcanic regions are barren, though it is not uncommon to find large areas of stunningly beautiful wildflowers rolling over hills and canyons. Of the few animal varieties found in these regions, small, brightly feathered, omnivorous raptors are the most common. They walk the wildflower hills, hopping over lava pools and feasting on the berry bushes. They are rarely seen, though questions have been raised about how these fluffy bipedal dinosaurs are able to survive in the presence of lava. Some suggest frost magic, some suggest that they are a mirage, some say that nature should just be enjoyed without constant digging for knowledge.
+
+      The jungle biome most commonly separates the icy and volcanic regions. These lands are rich with undocumented animals and plants – mostly because it all tries to kill you. Giant flytraps (sometimes called Venus-Pteranodon-Traps) have been known to grab adventurers from their trails. Herds of stampeding Sauropods have caused many unfortunate deaths among travellers. Jungle vines creep and grab ankles and venomous insects can end an unsuspecting overnight without them ever knowing that they were in danger. This land presents the most beautiful biome found through the land of Frester, and yet also the most perilous.
+      `
+      ,
+      lore:`
+      In ages long past, the Kingdom of Selentheia is generally considered the first outside discoverer of Frester. Their small expeditions would occasionally leave the woodland city in search of stories and forgotten mythology, when by chance one would accidentally happen upon this frozen wasteland. The expedition travelled north into these lands after several prominent composers and astrologers claimed to hear strange music echoing through their dreams. The expedition was presumed lost, though one survivor eventually returned years later carrying a jagged shard of unmelting blue ice that sang faintly to a select few priests and clerics – vaguely reminiscent of the Aurora Monoliths. Since then, rumours have circulated throughout Selentheia that the towering ice formations of Frester are somehow connected to the giant crystals of Shivvering, despite them each looking so different. Some believe the sounds are tied to the Goddess Legatia herself, whilst others say that the supposed songs are simply the hallucinations of zealots. Whatever the case, several pieces of Selentheian music are now said to mimic the calls of Fresterian dinosaurs.
+
+      Before the Twin Crown system united the realm, Frester was divided into scattered war-clans that survived by following the migrations of prehistoric herbivores through the land. Mammoth riders traversed the frozen plains and tribes living on the borders between icy and volcanic areas hunted alongside raptor packs. Some clans even built entire travelling settlements upon the backs of gigantic Sauropods. Conflict between the clans was common, as fighting for territory meant a greater chance for survival. Legends claim that the first ruler of Frester, believed to be of the Meltwater lineage, united the warring tribes not through battle, but by taming a horrifying white Tyrannosaur known as the “Winter Fang”. The beast is said to have carried them through the blizzards, with the cautious clans of the land following in tail, and to the site where the citadel of shards would subsequently be built. Whilst most modern historians dismiss the story as folklore, enormous three-toed footprints are still occasionally discovered near the capital.
+      
+      The rulers of Frester govern through a system known as the Twin Crowns. The Frost Crown is inherited through royal lineage and is responsible for the law and defence of the realm. Alongside the Frost Crown, the Tide Crown rules. This is a position elected by the villages, beast clans and travelling settlements of Frester. The Tide Crown rules over the wilderness of the kingdom and handles matters regarding the wellbeing of oft forgotten tribes and clans. This system was created following the Stagnation, when the ancient beast clans were forced to unite for their survival as the land changed so rapidly. Since then, the Twin Crowns have ruled together as symbols of both civilised society and wild freedom.
+      `,
+
+      ruler:`
+      Frost King Torrik Icewake
+      
+      Frost King Torrik Icewake is one of the few old enough to remember the great thawing began and because of this, many of the older Pengkin deeply respect him, seeing him as a living reminder of the kingdom’s harsh past. Torrik is a LN Emperor Pengkin with thick black and white feathers (though they have greyed with age), a golden yellow chest plume and a heavy hooked beak. He wears thick brown, blue and golden fur robes and a ceremonial cloak with ornate embroidery and fur linings. Despite his intimidating appearance, Torrik is generally quiet and thoughtful, preferring to listen rather than speak. He spends much of his time within the Citadel of Shards meeting explorers, scholars and foreign emissaries and is known to be a wise ruler. Whilst he is respected among the people, especially the older generation, many younger Fresterians believe that Torrik struggles to adapt to the thawing kingdom around him in this modern day.
+
+
+      Tide Queen Gladys of the Meltwater
+      
+      Unlike the Frost Crown, the Tide Crown is chosen not through bloodline, but through the democratic election of Frester’s beast clans and outer settlements. Gladys rose to prominence after leading several successful expeditions through the distant jungles, making contact with several undiscovered tribes with exceptional grace. She is a CG Rusnbjørne woman with a thick, muscled frame, resembling a humanoid grizzly bear. Despite her position, Gladys favours practical clothing to her royal robes. She can most commonly be found wearing weathered leather adventuring gear, adorned with the bright orange and red feathers of the volcanic raptor packs. She is known for spending far more time outside the capital than within it, and is often seen travelling alongside hunters, explorers and dinosaur handlers as equals. The Queen believes that Frester must embrace the changing environment rather than fear it – an opinion thought extremely distasteful but many of the more traditional noble families of the capital.
+
+      `,
+
+      ImportantPeople:`
+      Brakka Thaw-Tusk
+      
+      Brakka Thaw-Tusk oversees Frester’s trade in and out of the thawed waterways surrounding the kingdom. He is a LG Portan with thick brown fur, enormous ivory tusks that stretch to the sides of his stomach, and long, perfectly straight whiskers. Brakka dresses flamboyantly for a Fresterian city-dweller, often wearing brightly coloured silks imported from Iltharion and the Sprigvale beneath heavy fur jackets. Throughout the city, Brakka is held in high esteem as his fleets transport volcanic minerals, preserved meats and dinosaur hides throughout the Aeoth Plateau, bringing in much of the regions wealth and providing much-loved medicine, culture and opportunity with incoming merchant ships. Brakka is known for his sharp tongue and even sharper business sense - there is a well-known joke in the land about the battle of wits that would occur if Brakka were ever to meet Hj of Kark.
+
+
+      Keeper Ilyon
+      
+      Keeper Ilyon serves as the Master Archivist of the Citadel of Shards. He is responsible for preserving Frester’s collection of historical records and expedition journals. Ilyon is a N Humbolt Pengkin male, standing about 5 feet tall with bright pink plumage around his neck and white spots along his pristine black and white feathers. He wears small round glasses and is generally seen sporting a well-kept set of blue and black robes. Unlike most Pengkin of the capital, Ilyon seems unconcerned with politics or military matters and instead spends his time studying the snaking caverns beneath the kingdom. He is soft-spoken and polite, though known to become obsessively focused whenever ancient history is discussed. Many explorers seek out his guidance before leaving for the Fresterian jungles or volcanic lowlands, as his archives contain likely the most reliable maps of the region.
+      `,
+
+      dangerLevel: "64%",
 
       left: "79%",
       top: "18%",
@@ -758,15 +795,52 @@ export const locations = [
       name: "Crystellion",
       type: "town",
 
-      description:
-        "Ancient dwarven fortress carved into the mountains.",
-      lore:
-        "",
+      image: "/locations/crystellion.png",
 
-      ruler:
-        "",
+      description:`
+      Crystellion sits at the far eastern reaches of the Aeoth Plateau, overlooking the great waterfall endlessly cascading off the side of the plane.  Often known as the Roseglass City, Crystellion is one of the most strikingly beautiful civilisations found in the realm. Though it may not be one on the larger size of cities, it makes up for this with towering crystals, ranging from purple to pink to red to orange, that rise in and around the city, creating dancing refracted lights that drift through the streets. Towers of pale stone spiral upward around these giant crystal blooms, connected by hanging bridges, floating walkways and delicate glass staircases that hover in the air with levitation magic. At night, the entire city glows softly with rose, violet and amber with the moonlight reflected through the crystalline streets.
 
-      dangerLevel: "Low",
+      Being on the edge of The Wilds, the people of Crystellion’s lives are deeply intertwined with wild magic. Unlike the scholars of The Observatory or the fearful rulers of Detheneer, citizens here see magical instability as a beautiful facet of nature. Crystal growths are worshipped and protected, magical anomalies are treated as societal curiosities and even the architecture bends around these crystal monoliths. Due to this mostly not-understood arcana, staircases can often lead somewhere slightly different than before and reflections in mirrors may be seen to move a little too slowly.
+
+      The city itself is largely divided into terraces carved directly into the cliffside. The wealthiest districts spiral up the sides of gargantuan crystal towers, whereas some of the poorer regions descend down onto the misty cliffs, where miners and tradespeople make their living. It is worth noting though that despite the prevalence of mining in Crystellion, actually mining any sacred crystals is highly illegal. There is an underground crystal trade, mostly for the purposes of jewellery, but the majority of miners on the cliffsides work for natural deposits of gold and iron. The constant sound of the great waterfall echoes throughout the city day and night, accompanied by the faint humming resonance of the crystal formations embedded throughout the stone. Some find peace in the constant ethereal white noise, some say that it has addled the minds of those living in Crystellion.
+      `,
+
+      lore:`
+      The city of Crystellion began as a collection of monasteries built by travelling clerics. These were primarily travellers coming south from The Land of the Four Seasons - namely, Sumnersburg. As such, the city is very religious - Kestra, Goddess of Nature, Prescelle, Goddess of Fate and Amphi, Ruler of the Heavens have the most devotees in this area, though there is a great deal of tolerance for all faiths. Rumour has it that the crystals found here can act as conduits to the heavens and whilst only a select few priests and clerics can hear more than the soft hum, these towering structures are treated with the respect that one gives to a church. 
+      
+      Crystellion is among the newest of the Plateau’s cities and its politics reflect that. There has been no long-term monarchy or government formed in the 500 years since the city began taking form, meaning that periodically, an uprising can occur and the system of power will be overthrown. The current political system is that of a theocratic council, with one representative of each Amphi, Kestra and Prescelle holding the highest governing seats. There are talks of discontent among the people, with many faiths wishing to be represented better within the political elite, though most traditionalists wish to keep the council limited to just the three main Gods of the area. There aren’t talks of a new uprising being on the horizon yet, but the instability is rising and scholars from The Observatory have warned about a potential clash in the near future.
+      
+      Crystellion’s main exports are its natural ores. These are shipped all across the realm, though Detheneer, Sumnersburg and Augur are the largest buyers. Due to the abundance of gold, platinum and iron in this region, common money is generally not worth much outside of the ports. The most common currency here is enchanted incense sticks, with Crystellian citizens valuing faith and community over currency and material goods. Some believe that the rich abundance of metals came from Amphi blessing the land. Others believe that, being at the edge of the world, the endless ether below has seeped through the cliffs and turned rock into precious metals. None know the truth, though few people care enough to argue the topic - this is, after all, a land of theocratic peace.
+      `,
+
+      ruler:`
+      Lord Seraphel Vaun - Cardinal of Amphi
+
+      Lord Seraphel Vaun is a LN Human male in his mid-sixties. He has long grey hair and the left side of his body is partially overtaken by rose-coloured crystal growths. He dresses in elegant white and orange robes and floating crystal shards can sometimes be seen orbiting him slowly as he walks through the streets. Seraphel is respected for his steadfastness in the face of their Detheneer neighbours, though many mistrust him for how non-communicative he can be. Though calm and soft-spoken with his public sermons, Seraphel has started to become obsessive about magical regulation throughout the Plateau. He firmly believes an arcane calamity is approaching and has repeatedly argued with High Astrologer Kaleph of The Observatory over their “reckless” magical experimentation.
+
+
+      Lady Mirielle Ford - Cardinal of Kestra
+
+      Lady Mirielle is a NG Otterfolk female in her early twenties (this is well into adulthood for Rakin). She has sleek brown fur and big, beady black eyes and is often seen wearing flowing green robes and a tiara of crystalline petals. Mirielle is well known as an architect, leading projects to build many of the most stunning monasteries of the land. She spends most of her time in the woods surrounding Crystellion, doodling grand buildings at various shrines. Though many of the poorer people of the city adore her, she is not popular among the merchants and foreign envoys, who sometimes publicly criticise her lack of actual governing with so much time spent outside the city walls.
+
+
+      Lady Celestine Haeth - Cardinal of Prescelle
+
+      Lady Celestine is a CG Cyclopian female that many suspect to be a few hundred years old. She is well known for holding her massive, beady eye in her hands, with a grotesque tendril snaking back to her eye socket. She walks through the innermost city frequently, watching people go about their day with a blank look on her face. She wears black and purple robes that are slightly raggedy but clearly expensive. Many here don’t trust her due to the creepiness of her eye, but she has gained a reputation for being a powerful divination wizard and being surprisingly nice to those wanting to get to know her.
+      `,
+
+      ImportantPeople:`
+      Auric Vell
+      
+      Auric Vell is the head of the Roseglass Exchange, the largest legal crystal-trading company within Crystellion. Whilst the harvesting of sacred crystal monoliths is forbidden, naturally broken fragments and artificially grown crystals are still widely used throughout the Plateau in jewellery, arcane focuses and arcanomagic machinery. Auric made his fortune by controlling this trade and is now considered one of the wealthiest individuals in the east of the Plateau. Auric is a LN Dwarf in his late fifties, with braided brown hair that is starting to show slivers of grey. He is polite and well-spoken, though many find him difficult to spend much time with, due to how obscenely superstitious he can be.
+
+
+      Belladonne Wispveil
+      
+      Belladonne is one of the most highly respected illusionists in Crystellion and serves as the curator of the House of Reflections. This place is an oddly arcane artistic gallery where memories and dreams are shown through enchanted mirrors. Kings, Queens, Lords and Ladies have all been known to travel from across the Plateau to witness her exhibitions, though many are not happy with what they see. There are rumours that the mirrors sometimes show the future, rather than just reflections or the past, though Belladonne insists that this is “just part of the artistic wonder!”. She is a CN Tiefling with shoulder-length purple hair and dark red skin. She dressed in extravagant multicoloured robes that often look like she picked random fabrics and sewed them together haphazardly. She speaks dramatically and treats most interactions with the same splendour that you would expect from an actor in a theatre. 
+      `,
+
+      dangerLevel: "17%",
 
       left: "84%",
       top: "85%",
