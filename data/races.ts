@@ -687,7 +687,7 @@ export const races = [
 
     name: "Halfling",
 
-    subtitle: "Children of The Mother",
+    subtitle: "Like Humans but Smaller (and friendlier)",
 
     image: "/races/halfling.png",
 
