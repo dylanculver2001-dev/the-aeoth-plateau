@@ -838,38 +838,6 @@ export const races = [
     "shadow-blue-900/30",
 
 
-    /* VISUAL THEME */
-    background:
-    "linear-gradient(to bottom right, rgb(20, 10, 36), rgb(36, 18, 72), rgb(10, 42, 68))",
-
-    backgroundGlow:
-    "bg-pink-500/14",
-
-    orb:
-    "bg-fuchsia-400/10",
-
-    orbSecondary:
-    "bg-sky-400/8",
-
-    glow:
-    "bg-cyan-300/18",
-
-    accent:
-    "text-pink-100/80",
-
-    titleColor:
-    "text-blue-50",
-
-    divider:
-    "bg-pink-400/30",
-
-    panel:
-    "border-pink-400/15 bg-black/25",
-
-    shadow:
-    "shadow-blue-900/30",
-
-
     /* LORE */
     about:
       "",
