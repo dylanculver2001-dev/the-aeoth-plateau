@@ -458,16 +458,24 @@ export const locations = [
       id: 16,
       name: "The Ruined Clifftop",
       type: "nature",
+      image: "/locations/ruinedclifftop.png",
 
-      description:
-        "Ancient dwarven fortress carved into the mountains.",
-      lore:
-        "",
+      description:`
+      The Ruined Clifftop lies atop a plateau of black stone, as a reminder of a great civilisation or old. Once a grand city of pale stone and arcane architecture, little now remains as it was originally built. Mossy blankets cover collapsed walls in thick emerald carpets, and pale grey lichen creeps across cracked monuments and broken archways. Entire districts have fallen victim to time, leaving areas that may have once been market squares, or may just be natural piles of rocks. Ancient roads still wind through the ruined city, though following them can be difficult, as so much of these routes are now hidden under either the moss carpet or the scattered, weathered bricks.
+      
+      To the north, the Warbling Waters lap against the cliff face, singing an eerie choir of whistles and groans that drift through the ruins. A thick fog often rolls across this land, leading many to believe that the area is haunted by the ghosts of those that used to live in this city.
+      `,
+      
+        lore:`
+      Long before the rise of most of the Aeoth Plateau’s modern kingdoms, the Ruined Clifftop was the heart of a powerful civilisation, though for all its assumed splendour, very little is known about its history. Some historians theorise that the city may have been a trade colony for seafaring merchants, others believe that it was a land of wild magic and wizardry. At its height, this city would have supported tens of thousands of residents, likely rivalling the likes of Detheneer and Myconia as one of the biggest cities of the realm.
+      
+      Its decline remains one of the biggest mysteries for scholars of The Observatory. Arcane carbon-dating technology suggests the city was not destroyed in a single catastrophe but abandoned by its inhabitants over the span of decades. Construction projects appear to be left unfinished, and marketplaces seem to have been deserted with goods still inside. High Astrologer Kaleph has publicly stated his belief that the city slowly succumbed to a mundane economic collapse, though many of his peers have argued that the strange carvings found throughout the ruins, depicting stars and semi-humanoid figures, may suggest celestial or demonic involvement. 
+      `,
 
       ruler:
-        "",
+        "N/A",
 
-      dangerLevel: "Low",
+      dangerLevel: "66%",
 
       left: "50%",
       top: "45%",
