@@ -843,13 +843,21 @@ export const locations = [
       name: "Sumnersburg",
       type: "country",
 
-      description:
-        "Ancient dwarven fortress carved into the mountains.",
-      lore:
-        "",
+      description:`
+      
+      `,
 
-      ruler:
-        "",
+      lore:`
+      
+      `,
+
+      ruler:`
+      
+      `,
+
+      ImportantPeople:`
+      
+      `,
 
       dangerLevel: "Low",
 
