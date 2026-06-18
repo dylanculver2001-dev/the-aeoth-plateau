@@ -712,7 +712,7 @@ export const locations = [
 
       dangerLevel: "31%",
 
-      left: "58%",
+      left: "88%",
       top: "37%",
     },
 
