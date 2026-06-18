@@ -843,23 +843,47 @@ export const locations = [
       name: "Sumnersburg",
       type: "country",
 
+      image: "/locations/sumnersburg.png",
+
       description:`
+      Sumnersburg is a country of endless heatwaves and barren deserts. From the unpredictable blasts of boiling steam in the East Point Geyser Fields to the drought ridden sand dunes that many and adventurer has perished in whilst searching for the Mirage Bazaar, to call Sumnersburg inhospitable would be an understatement. That is not to say though that beauty cannot be found here. The Southern Sunflower Fields grow giant sunflowers reaching up to 50ft in the air, glowing with an almost ethereal yellow brilliance and the glassy forest floor of the Sandglass Woods refract a brilliant rainbow of dazzling lights around those brave enough to explore the region. 
       
+      The capital city of Sumnersburg, Solari, is known for its desperate need for water and shade. The eternal summer sun here bakes the surface of this land into a hellish  wasteland. The city’s architecture consists of heavy sandstone and adobe designed to trap whatever cool air remains. The ruling Evocation mages control the city's temperature with frost and wind spells, though sometimes, if not organised correctly, this can leave patches of the city almost frozen and others scalding hot. The city uses specialised magical taskforces to drill deep into the desert sands in the hopes of tapping the plentiful underground freshwater springs. This is mostly used for drinking water, though with a feat of ingenious engineering, some water is also used to fuel massive steam-engines that power much of the city’s machinery district. Solari society is largely stratified by depth. The wealthiest and most powerful live at the very bottom of the city, in canyons that leave massive gashes through the upper districts, so that those can afford it may find homes near the underground riverbeds, while the poorest citizens live on the burning upper levels, working tirelessly for daily water rations.
+
       `,
 
       lore:`
+      Despite their importance, surprisingly little is known about the underground rivers that snake beneath the city. Miners and well-drillers have been known to share rumours of strange discoveries deep below the sandstone. Some claim to have found sections of the river flowing uphill, others tell tales of cavern walls carved with strange symbols and some even claim to have seen strange creatures moving in the depths. These stories are usually dismissed by city officials, claiming that the peasants are just acting delirious under the heat, but nonetheless, most still believe that something stirs underground.
       
+      Many natives of Sumnersburg bear what are commonly known as “sun scars”. These are the physical abnormalities believed to have been caused by generations of exposure to the country’s intense heat. The most common examples are golden eyes, skin that glows with an amber radiance and pale freckles that shimmer slightly when seen from certain angles. Scholars continue to debate whether sun scars are the result of some sort of magical adaptation or perhaps a lingering effect of the Grand Theorem. While many citizens wear their scars as a badge of pride, others see them as a reminder of their restless lives on the burning Sumnersburg surface. Curiously, the traits appear far less frequently among the wealthy families of the lower districts, who dwell in the temperate shadows of the canyon depths.
+
       `,
 
       ruler:`
-      
+      Atris Firebane II
+
+      King Atris II is a CN Dragonborn, known for his fiery temper and ruthless attitude towards other nations. After his father, King Atris I’s death when he was just a child, Atris II grew up with a constant pressure to live up to his successor. He has red scales, with long, elegant black horns, deep black eyes and a sturdy, muscled physique. He is most commonly seen wearing a loose white linen shirt with heavy golden chains around his neck and light cloth trousers. Before his father died and he was forced to return home, Atris II was a promising talent at the Hall of Scholars. His skills in the Evocation school of magic outmatched many of his professors, though he was still failing most of his classes, as he refused to submit most assignments. Despite this, Atris II is known for being hardworking and logical. His anger comes fast when he is challenged but for the most part, he is known for his ability to solve problems with his head.
+
       `,
 
       ImportantPeople:`
+      Grand Thermarch Aurelia Verr
       
+      As one of the most powerful political figures in Sumnersburg, Aurelia oversees the network of frost and wind mages responsible for keeping Solari habitable. Every day, thousands of magical calculations are performed to distribute cooling magic across the city, all under her watchful eye. Aurelia is a LG Urkin female, with crooked whiskers and stripy grey and black fur. She is short but fierce, and for all her intellect, she is just as capable in a fight. She is often seen wearing a wide brimmed straw hat, and has a slightly unpleasant habit of chewing loudly on cactus rind. Aurelia is respected throughout the city due to one unpleasant truth: if she fails, thousands could die. Many suspect that she does not sleep, as she is seen through all levels of Solari, at all hours of the day and night, checking on mages to make sure they are coordinated properly to keep the citizens at a sustainable temperature.
+
+
+      Zahim, the Sunflower Giant
+      
+      The legends of Zahim circulate now as just stories, though for generations, this giant would be seen occasionally through the Southern Sunflower Fields, patrolling and defending citizens from giant sand worms. Whilst he may have fallen into mythology, many elders still fondly claim to remember him, and most children of the country are brought up hearing about the legendary sunflower giant.
+
+
+      The Shadebroker
+      
+      Despite being one of the most recognisable names in Solari, The Shadebroker’s identity remains a mystery. They are responsible for the underground trade of waterskins, deeds of ownership to underground wells and minor spell scrolls of frost magic. The criminal workings of Solari are surprisingly well hidden and even with the city’s wardens conducting regular raids, The Shadebroker has managed to stay as one of the most powerful figures in the city for decades. Whilst the upper class may hate his impact on the nation’s economics, the poorer citizens largely rely on his underworld network for their survival. 
+
       `,
 
-      dangerLevel: "Low",
+      dangerLevel: "75%",
 
       left: "76%",
       top: "71%",
