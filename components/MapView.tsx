@@ -117,7 +117,7 @@ export default function MapView() {
                   Ruler
                 </h3>
 
-                <p className="text-zinc-300">
+                <p className="text-zinc-300 whitespace-pre-line leading-relaxed">
                   {selectedLocation.ruler}
                 </p>
               </div>
@@ -127,7 +127,7 @@ export default function MapView() {
                   Important People
                 </h3>
 
-                <p className="text-zinc-300 whitespace-pre-line">
+                <p className="text-zinc-300 whitespace-pre-line leading-relaxed">
                   {selectedLocation.ImportantPeople}
                 </p>
               </div>
