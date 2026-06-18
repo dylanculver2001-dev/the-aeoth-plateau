@@ -14,11 +14,13 @@ export const locations = [
         About 1000 years ago, war broke out with Augur due to the different political states of the two nations. Iltharion operates as a theocracy, whereas Augur was a strict magocracy. This war ended with Elias (The General) Witherbloom committing an unspeakable war crime (The Semidoubletwisting), murdering thousands of innocent Iltharion citizens. Since then, this land has rebuilt and flourished anew, though slightly more closed to the outside world now.
         
         Iltharion functions as a monarchic theocracy, with Queen Floestra having the final say over laws and customs, but priests maintaining the day to day running of the city. Churches, monasteries and temples lie all throughout the city, with a range of beautiful floral architecture. High Priestess Nethau leads the religious aspects of the city, though it is known that Queen Floestra does not like her, leading some to believe that the Queen is a non-believer.
-      `,
+      
+        `,
       ruler: `
       Queen Floestra
 
       The Queen is an elderly Elf who is one of the few alive to remember the war. Queen Floestra wears green robes, adorned with gold leaves and gemstone encrusted jewellery. She has shoulder length grey hair and has a thin, spindly build. She is kind and well natured at the surface but underneath, she is cold and calculated. Whilst not necessarily evil, Floestra still holds a grudge against the Land of the Four Seasons. She will treat outsiders well but is careful to keep them at arm’s reach and the only good connection she holds with the outside world is with the rulers of Selentheia and Eire.
+      
       `,
         
       ImportantPeople: `
@@ -35,6 +37,7 @@ export const locations = [
       High Priestess Nethau
 
       High Priestess Nethau is a striking Elvish woman, who seems to be in her thirties (though many suspect she may be younger than she looks). She is usually seen wearing pristine white robes embroidered with silver flowering vines to match the city's architecture. Nethau stands tall with an imposing posture and long, blonde hair with a face that is mostly emotionless yet undeniably beautiful. Whilst Queen Floestra governs the overarching laws, Nethau and her priesthood truly run the day-to-day operations of Iltharion, granting her immense power over the city's populace. She is fiercely religious, preaching that the city’s isolation is the divine will of the gods.
+      
       `,
 
       dangerLevel: "35%",
@@ -50,8 +53,10 @@ export const locations = [
 
       image: "/locations/selentheia.png",
 
-      description:
-        "The Kingdom of Selentheia is a powerful city, though in the shadow of Iltharion, it is often overlooked. Similar to their Elvish neighbours, Selentheia remains very closed to the outside world. Selentheia is a land that holds great importance to stories, music and the arts, likely due to the need for entertainment without many outsiders. This woodland city is broken up with large areas of woodland separating districts and rivers that often get used as streets, with barges transporting commuters to work and children to schools. Anyone that has been to Selentheia would likely remember it for the music, with tunes floating through the air all throughout the city. The residents here are distrustful of outsiders, though eager to learn more of the outside world and any exciting tales / mythology they can.",
+      description:`
+      The Kingdom of Selentheia is a powerful city, though in the shadow of Iltharion, it is often overlooked. Similar to their Elvish neighbours, Selentheia remains very closed to the outside world. Selentheia is a land that holds great importance to stories, music and the arts, likely due to the need for entertainment without many outsiders. This woodland city is broken up with large areas of woodland separating districts and rivers that often get used as streets, with barges transporting commuters to work and children to schools. Anyone that has been to Selentheia would likely remember it for the music, with tunes floating through the air all throughout the city. The residents here are distrustful of outsiders, though eager to learn more of the outside world and any exciting tales / mythology they can.
+
+      `,
       lore:`
       Since The Semidoubletwisting, where Selentheia lost thousands of soldiers and civilians, they have mostly closed their borders. They occasionally send out small expeditions to learn about the outside world, though with the Iltharion jungles being so dangerous, many do not return.
 
@@ -60,12 +65,14 @@ export const locations = [
       The cultural archives of The Observatory hold much Selentheian entertainment, and it is rumoured that the city gave birth to the first ever instruments! All throughout the Aeoth Plateau, Selentheian sheet music circulates and scripts for their plays are traded in underhand deals. The only nation to hold any real relationship with Selentheia, except Iltharion, is Adar Kark surprisingly. Karken woodworking skills are instrumental to the bountiful flow of new instruments and musical innovation, King Yourn has been on record describing His Wrinkliness, Hj as a “close friend” and “trusted business partner”, though Hj has never openly shared details of any trade deals or relationships with other nations.
 
       Once each century, Selentheia opens its borders to the outside world, for a celebration they call the Stellar Musicality. Many great magical mathematicians have tried to extensively explain the importance of this moment, but all that most understand is that the moon lines up with the heavens in a way that allows Legatia, the Goddess of Music to bless their performances.
+      
       `,
 
       ruler:`
       King Yourn
 
       King Yourn is not well known throughout the Aeoth Plateau, as he only recently rose to power with the passing of his mother, just 4 years ago. Though unexperienced, the King is liked among his people for his genuine passion for the arts. Yourn is a NG mid-forties Kenda male, with short ginger hair and freckles. He is stocky, largely due to his proficiency with marching drums, and is known for his rhythmic and compositional talent among the people. King Yourn regularly participates in his “Royal Theatre”, giving performances to the rich and the poor alike, alongside his wife, the Queen Regent Hettie, who is a singular talent when it comes to the flute. He spends his days in the company of his subjects, in communal natural spaces throughout the city, though recently, he has not been seen much, leading many to suspect that something untoward has happened to him.
+      
       `,
 
       ImportantPeople:`
@@ -82,6 +89,7 @@ export const locations = [
       Gadpal
       
       Gadpal sits next to The Glorious St Derek as the other lead Orchestrator of Selentheia. They are known for their storytelling prowess and ability to bring even the hardiest of warriors to tears with their words. They lead the Guild of Mythos, an organisation responsible for archiving and cataloguing the tales of the Aeoth Plateau. He is generally found inside the Mythos Library, a tall tower of bookshelves, filled with stories old and new, long and short, impressive and measly, though each one he holds dear.  Gadpal is a non-binary NG Halfling, with blue hair, round glasses that seem to be permanently at the tip of their nose and remarkably androgynous features. They have sharp facial features and are unusually short, even for a Halfling. 
+      
       `,
 
       dangerLevel: "5%",
@@ -97,12 +105,15 @@ export const locations = [
 
       image: "/locations/wiccanwoods.png",
 
-      description:
-        "The Wiccanwoods are often treated as the shameful neighbour of the beautiful Iltharion jungles. They are veiled in purple mists and a deeply dangerous, with hags, giant spiders and zombies aplenty. The Wiccanwoods sit on an arcane faultline that many hold responsible for the prevalence of spirits and dark magic in the area. Despite its reputation though as a haunted nightmarish land, the Wiccanwoods is home to several Opteran colonies, as well as some of the few Oozekin settlements in the Aeoth Plateau. This land may be incredibly dangerous, but many that choose to call it their home fall in love with the wispy mists and magical auroras that light up the sky.",
+      description:`
+      The Wiccanwoods are often treated as the shameful neighbour of the beautiful Iltharion jungles. They are veiled in purple mists and a deeply dangerous, with hags, giant spiders and zombies aplenty. The Wiccanwoods sit on an arcane faultline that many hold responsible for the prevalence of spirits and dark magic in the area. Despite its reputation though as a haunted nightmarish land, the Wiccanwoods is home to several Opteran colonies, as well as some of the few Oozekin settlements in the Aeoth Plateau. This land may be incredibly dangerous, but many that choose to call it their home fall in love with the wispy mists and magical auroras that light up the sky.
+
+      `,
       lore:`
       Some 50 years ago, the Opteran Lord Parzifal tried launching an international campaign to put the Wiccanwoods into the public eye. This failed spectacularly when he reached Iltharion and was executed for attempted endangerment of the nation. Since then, The Opterans have stayed secluded in their towns, refusing to put themselves at risk again. Due to the shortness of Opteran lifespans, three generations of rulers have come since Lord Parzifal and rumours of the outside world have become exaggerated, as a poorly played game of Chinese whispers. Many now believe that there is no outside world, though the occasional Iltharion scout confirms their existence from afar, just to keep the records up-to-date.
 
       Giant spider populations in the Wiccanwoods have flourished since The Stagnation, as one of the few large monster species to have not been affected too badly. This poses a grave danger for travellers, though some suspect that dark magic may be controlling these beasts and influencing their increasingly unnatural, violent behaviour.
+      
       `,
 
       ruler:
@@ -110,6 +121,7 @@ export const locations = [
 
       ImportantPeople:`
       Not enough is known about the Wiccanwoods for public knowledge of small tribe leaders
+      
       `,
 
       dangerLevel: "95%",
@@ -220,14 +232,17 @@ export const locations = [
 
       image: "/locations/observatory.png",
 
-      description:
-        "This city of culture stands at the centre of the Aeoth Plateau as a shining example of academic excellence. The Grand Constellatory, a giant stargazing tower, lies at the heart of the city and houses the greatest library in the land. The Observatory is a politically neutral state, with a meritocratic government of scholars and mages. This city houses the Hall of Scholars, widely considered the greatest school of magic that the Plateau has ever known. Streets here are lined with bronzed houses and rivers flow through the city with waterwheels commonplace for powering forges. Arcanomagic innovation is also plentiful here, with mages and blacksmiths working together to design new semi-magic tools, weapons and transport. The Observatory is one of the most multicultural places in the realm, with one’s worth being judged by their curiosity and intelligence, rather than their wealth or status. This city has very few taverns, instead preferring the debate halls and cafés through the streets. Whilst The Observatory is not an incredibly wealthy city, it attracts many wealthy businesspeople looking for new investments. At the same time though, the culture here considers education a basic right, which often attracts many poor students. All are accepted here, as long as they are open-minded and willing to learn.",
+      description:`
+      This city of culture stands at the centre of the Aeoth Plateau as a shining example of academic excellence. The Grand Constellatory, a giant stargazing tower, lies at the heart of the city and houses the greatest library in the land. The Observatory is a politically neutral state, with a meritocratic government of scholars and mages. This city houses the Hall of Scholars, widely considered the greatest school of magic that the Plateau has ever known. Streets here are lined with bronzed houses and rivers flow through the city with waterwheels commonplace for powering forges. Arcanomagic innovation is also plentiful here, with mages and blacksmiths working together to design new semi-magic tools, weapons and transport. The Observatory is one of the most multicultural places in the realm, with one’s worth being judged by their curiosity and intelligence, rather than their wealth or status. This city has very few taverns, instead preferring the debate halls and cafés through the streets. Whilst The Observatory is not an incredibly wealthy city, it attracts many wealthy businesspeople looking for new investments. At the same time though, the culture here considers education a basic right, which often attracts many poor students. All are accepted here, as long as they are open-minded and willing to learn.
+
+      `,
       lore:`
       The Observatory is famously politically neutral, though many critique their involvement in the development of destructive magic, tools of war and refusal to accommodate political peace meetings. Myconia has said in the past that it considers The Observatory’s inaction an offense to the word peace. Many in The Observatory are content with this moral grey area, though factions have begun rising recently, criticising the apathy of the high astrologers when it comes to the struggles of the rest of the world.
 
       The Hall of Scholars was built next to the Grand Constellatory centuries ago and educates thousands each year in the art of the arcane. Though a particularly snobby environment, they have a track record of exceptional teaching quality. There is a stereotype through the land that if a noble’s child shows any sign of magical ability, they will be sent off to the Hall of Scholars to bolster the family name and build business relationships with other students. Lessons here are long and unforgiving, though the faculty deserve their spot in this grand college. Almost all staff have books of legend written about them, as envoys, adventurers, researchers and mathematicians.
 
       The waterways of The Observatory snake through the city like the branches of a tree. Barges carry tourists through the city and canal boats bring students to and from their schools each day. There are rumours of passages to the underdark in the city sewers, though any negative comments about The Observatory are quicky quashed. The waters themselves are impressively clear; on summer days, many residents can be found swimming through them enjoying the heat.
+      
       `,
 
       ruler:`
@@ -239,6 +254,7 @@ export const locations = [
       High Astrologer Abacus
 
       Abacus came to The Observatory as a homeless teenager fleeing the wrath of his parents in Detheneer. He is a NG short Bugbear, standing about 5 feet tall, with greying fur and glowing blue magical tattoos along his arms. He wears a blue fez and matching blue gowns and is famous for his work on the mathematical understanding of the weave. Abacus’ discoveries have led to not just a greater understanding of how magic functions, but the implementation of arcanomagic contraptions across the land to heat homes in Shivvering, build safe minecarts through the Diamond Enclave tunnels and deliver post across the realm. Though he may deal purely in the theoretical, his research has had a greatly positive effect on most of the Aeoth Plateau.
+      
       `,
 
       ImportantPeople:`
@@ -255,6 +271,7 @@ export const locations = [
       Rudder Knickknacks
 
       Rudder used to be a glorious Mountain Dwarf warlord, though since his unfortunate demise several centuries ago, his rebirth as an Ombrask left him with a completely new personality. Now, he seeks solace in his forge… unsuccessfully. His reputation as a skilled arcanomagic blacksmith precedes him. He has worked extensively with High Astrologer Abacus in the development of arcane tools and though he can be grouchy and apathetic, his somewhat shady moral compass tends to drive him towards good deeds. Rudder stands 6 feet tall and is generally seen wearing a heavy-duty leather apron and gloves, with stained commoner clothes underneath. Despite this, he is one of the richest people in The Observatory, with businesspeople from all over the land travelling to pay for new inventions and invest in his company: Knickknacks LTD.
+      
       `,
 
       dangerLevel: "28%",
@@ -278,6 +295,7 @@ export const locations = [
       The Kelp Jungles to the north of the Coral Courts sit next to the Rainbow Corals as the other major district of the nation. This jungle is primarily used for farming leaf sheep, small creatures whose leafy wool is sheared for clothing. They used to be farmed for their meat, though since the Wildlife Preservation Faction rose to power under the rule of the Breezechant lineage, they are left unharmed and instead admired for their beauty.
 
       The Coral Courts have remained politically separate from most of the Aeoth Plateau throughout the ages, preferring to keep to themselves. That is not to say though that they haven’t had their fair share of conflicts. Sea beasts pose a continuous threat to the nation and until the previous monarchy was overthrown a century ago, the land functioned as an authoritarian dictatorship. The War of the Current, let by King Scalius Breezechant fought for the independence of the people, as well as the climate restoration of the land. Since their victory, the country has returned to order and is flourishing as a self-contained ecosystem.
+      
       `,
 
       ruler:`
@@ -289,6 +307,7 @@ export const locations = [
       King Gahred Breezechant
       
       Gahred started his life in the Kelp Jungle farming district, where his family has spent generations tending to the flocks of leaf sheep. When he was old enough to travel to the trading hub alone he met a girl, and it was love at first sight. She was kind to everyone and though they came from polar opposite backgrounds, Gahred enjoyed teaching her the ways of the people as much as he enjoyed learning her customs as a noble. It wasn't until she whisked him away that he discovered her to in fact not be a noble, but instead the princess. He now spends most his time tending to her, like he had always dreamt he would, only now in the Coral Castle. The story of their love is one of the few tales to have left the Coral Courts and circulated the Aeoth Plateau. It is said that the kingdom of Selentheia holds a personal account of their romance in the Mythos Library. King Gahred is a LG Cnidarian, with brown and blue tentacles and small black eyes. He is slightly plump but has an unmatched, jolly charisma. He wears similar white, flowy robes to his wife, except he wears a selection of gemstone and coral jewellery.
+      
       `,
       
       ImportantPeople:`
@@ -353,20 +372,24 @@ export const locations = [
 
       image: "/locations/diamondenclave.png",
 
-      description:
-        "Through the heart of the Coaltham Peaks, a network of underground tunnels forms the city known as the Diamond Enclave. This city is famously dangerous, serving as a hideout for the criminal underworld of the Aeoth Plateau. From the surface, a traveller wouldn’t be able to tell that they were standing upon a vast metropolis of subterranean culture. These tunnels lead down to the underdark, though the journey through the city is perilous enough that not many reach the far depths. Life here is tough. Most residents make a living from pirated goods, travelling to the city to pedal their wares, before setting off again to plunder once more. That is not to say though that the Diamond Enclave does not have some legal sources of income. The gemstone caverns are a bountiful, yet dangerous source of wealth and the nation is famous for their culinary practices. The population is mostly made from Mountain Dwarves, Drow, Golynn, Cyclopians, Gnomes and Tieflings, though anyone willing to keep their mouths shut and wallets open is welcome in the tunnels of the Diamond Enclave.",
+      description:`
+      Through the heart of the Coaltham Peaks, a network of underground tunnels forms the city known as the Diamond Enclave. This city is famously dangerous, serving as a hideout for the criminal underworld of the Aeoth Plateau. From the surface, a traveller wouldn’t be able to tell that they were standing upon a vast metropolis of subterranean culture. These tunnels lead down to the underdark, though the journey through the city is perilous enough that not many reach the far depths. Life here is tough. Most residents make a living from pirated goods, travelling to the city to pedal their wares, before setting off again to plunder once more. That is not to say though that the Diamond Enclave does not have some legal sources of income. The gemstone caverns are a bountiful, yet dangerous source of wealth and the nation is famous for their culinary practices. The population is mostly made from Mountain Dwarves, Drow, Golynn, Cyclopians, Gnomes and Tieflings, though anyone willing to keep their mouths shut and wallets open is welcome in the tunnels of the Diamond Enclave.
+      
+      `,
       lore:`
       The city was founded millennia ago by adventurers looking for a safe passage to the underdark. With honest intentions, their tunnels bloomed into a thriving network of trade routes and rich diamond mines. With time though, this utopian society crumbled under the weight of greed. People fought over the gemstones, thievery ran amok and without a formal governing body, the nation grew to respect strength over authority. Nowadays, the city has attempted to assert its right to sovereignty, but with the domineering eyes of Fort Durmen and Detheneer on the continent, their fight for power has been contained to the city tunnels.
 
       Food here is scarce. Few animals live on the Black Caldera continent, leaving the residents of the Diamond Enclave with two choices: starve, or get creative. They chose the latter. Food is imported from all across the Plateau with the single goal of making the best tasting meals that can feed the most people, for the lowest cost. The Golynn and Drow populations here make up several culinary districts, accounting for more exported goods than all the mining districts combined. The general rule of thumb in these tunnels is that you don’t cause problems with the person with the cleaver that feeds you.
 
       The Diamond Enclave often functions as a home for the outcasts of other societies. Whilst this has led to a high population of criminals, it has also led to an unfortunate number of orphans living on the streets, or in shelters. These children are known to pickpocket even the most cautious rogues, organising in guilds and growing up in a city where they are taught to be ruthless. 
+      
       `,
 
       ruler:`
       Raxothackus, the Scarred
 
       The NE Goliath mercenary Raxothackus took the ruling throne of the Diamond Enclave by force just 5 years ago. Power transfers here often – if someone is more dangerous than you, they will take the throne for themselves. Raxothackus killed the previous king, as well as a hundred of his men, with his bare hands and is now so feared that most run away if he is seen in the streets. He stands at almost 10 feet tall, built from solid muscle and covered in ugly scars. His skin is a dark grey and he has tribal tattoos covering most of his body. He rarely speaks, though when he does, few could even imagine disobeying. He demands a 40% tax from all trade in the city, often enforcing this with his murderous rage. He is clean shaven with short, tidy black hair and mostly wears nothing but a loincloth.
+      
       `,
 
       ImportantPeople:`
@@ -383,6 +406,7 @@ export const locations = [
       Cia, of the house Emerald
 
       Cia may have been born into nobility, but she is a stone-cold psychopath. She is a CN Tiefling, standing a little over 6 feet tall, with barbed wire wrapped round her horns and sharp golden fangs. Cia leads the mining districts with ruthless discipline. Those that are on her good side will be showered with riches, those that aren’t will not live to see the next morning. Cia can go from laughing to slashing in an instant, making the dangerous mines even more terrifying. The house Emerald is a respected Sprigvalian family, though seeing her violent tendencies from a young age, Cia was cast out and ended up an orphan in the Diamond Enclave. Her administrative skills are impressive, though her sales and marketing abilities may lack some grace and decorum. Cia will kill anyone wanting to point this out to her but secretly, she employs a team of traders to fulfil these tasks in her stead.
+      
       `,
 
       dangerLevel: "80%",
@@ -402,6 +426,7 @@ export const locations = [
       Detheneer is one of the oldest cities on the Aeoth Plateau, rivalling the political status of The Observatory and Iltharion. This land is primarily populated by Humans, Dragonborn, Dwarves and the occasional Hoofborn.  With active volcanoes all throughout the Black Caldera continent, Detheneer is one of the few civilisations large enough to offer a “safe” living space. Though safe is a massive overstatement – life here is tough. Lava flows around the city, heating mega-forges operated by hundreds of prisoner slave workers – something the city receives constant criticism for. Their armour is spectacular, though not as tough as Melxon metalwork. Their gemstone mines are plentiful, though not as rich as the Diamond Enclave or Hutton. Their warriors are mighty, though not as feared as the Augurians. Detheneer, for all its anger and vying for power is really considered rather middling by most of the rest of the Aeoth Plateau. However, the cutthroat culture here is reflected in their customs. They are the only nation to support slave labour (though only for convicts), they are the only nation to have banned magic, and they are the only nation to operate under an autocratic dictatorship. Whilst Detheneer is generally disliked by other cities and countries, there is a gruff respect that is bequeathed upon the nation for its watchful eye, keeping the beasts of the Midsea under check, sinking Diamond Enclave pirate ships and controlling wyrm populations.
 
       Detheneer, as a city, is ugly. Streets are mostly just mud paths, thick with the stench of either sulphur, or faeces. The city seems to be constantly shrouded in a fog of soot, leaving locals to wear cloth face masks. The giant natural crystals found in the southern areas of the Black Caldera are impressively effective for absorbing and storing heat. They are found all throughout the city, with 4-to-10-feet-tall red, orange or yellow quartz-like crystals on most streets. The architecture here is mostly heavy stone brick houses and rickety metal sheet shacks. With such a miserable place to live though, the residents have revolted by becoming abnormally well natured. With an oppressive dictatorship and spiteful guards patrolling the streets, civilians here have learned to stick together in closeknit communities. Taverns bustle with song and big families live together, often with ten or more people under one roof. Rumours sometimes circulate of a rising rebellion, though they rarely leave the city walls. This city does not have a castle for its rulers, instead opting for a grand throne room in the central megaforge to serve as Marshal Depresne’s base of operations.
+      
       `,
       
       lore:`
@@ -410,12 +435,14 @@ export const locations = [
       Detheneer only really commands respect due to its strict control of the Black Caldera and the surrounding area. One side effect of this is that they end up with a lot of prisoners. These prisoners are put to work in megaforges throughout the city, processing gemstones, smelting metal and crafting weaponry. Few escape and even fewer live to the end of their sentence, though those that do often find themselves highly trained and well respected. The Leader of the Detheneer military, Colonel Latimer, was in fact a prisoner once herself, convicted for thievery and murder. Iltharion and the Coral Courts have repeatedly criticised the slave labour practices of this nation but unless someone decides to start a war, there is little that can realistically be done.
 
       With the evil mage Salvador Greystaff’s passing (or having been murdered by his Orc army), a dislike of magic arose throughout Detheneer. The arcane arts had been used for generations by evil mages and demons alike to subjugate the population and wreak death upon other lands. Due to this, magic became something of a taboo. Whilst it may technically be illegal, taverns sometimes use small prestidigitation displays to entertain their customers, though if this is seen by any patrolling guards, they risk getting into serious trouble.
+      
       `,
 
       ruler:`
       Marshal Reno Depresne
 
       Reno inherited the throne as a middle-aged man about five years ago with the passing of his father. He is known to have little care for the running of the city, preferring instead to keep to himself and let his advisors manage the day-to-day affairs – a stark contrast to his forefathers. Reno is a 6-foot N Dragonborn male, with shining brown and black scales and long elegant horns adorned with small metal rivets. He is most commonly seen wearing suave leather garb in the colours of Detheneer: black and red. With Marshal Depresne taking such a back-footed approach to leadership, rumours arise constantly among the people. Some think he died and his advisors are just using his animated corpse to remain in power, some think he is a fool without the mental capacity to lead, some think he went crazy with his father’s passing – all conjecture; none truly know.
+      
       `,
 
       ImportantPeople: `
@@ -427,6 +454,7 @@ export const locations = [
       Colonel Aime Latimer
       
       Latimer is still new to the position of Colonel and as such commands little respect. That being said though, she is an undeniably dignified soldier. She stands 6 feet tall as a LN female Hammerhead Sharkin, with scars across her head and tattoos up her neck. She is often seen wearing the black and red military uniform of Detheneer, with medals atop her chest, won from her many battles among the seas. Latimer grew up in the Diamond Enclave and was arrested as a teenager for pirating. She served a decade of her sentence in the megaforges, before proving her strength and serving the rest of her sentence onboard the Detheneer navy. She rose in status fast, proving a menace among the seas as she found her calling – being a pirate legally! For Latimer, there was little difference between the navy and the pirate ships, except one came with scurvy and the other came with a pension. She spends little time actually in Detheneer, instead preferring to stay on the open seas and command the military from her watery freedom. Since her promotion to Colonel, there have been no sea beast attacks on Detheneer ports – she is a fierce defender of the nation, even though most there do not trust the former prisoner.
+      
       `,
 
       dangerLevel: "76%",
@@ -464,16 +492,21 @@ export const locations = [
       The Ruined Clifftop lies atop a plateau of black stone, as a reminder of a great civilisation or old. Once a grand city of pale stone and arcane architecture, little now remains as it was originally built. Mossy blankets cover collapsed walls in thick emerald carpets, and pale grey lichen creeps across cracked monuments and broken archways. Entire districts have fallen victim to time, leaving areas that may have once been market squares, or may just be natural piles of rocks. Ancient roads still wind through the ruined city, though following them can be difficult, as so much of these routes are now hidden under either the moss carpet or the scattered, weathered bricks.
       
       To the north, the Warbling Waters lap against the cliff face, singing an eerie choir of whistles and groans that drift through the ruins. A thick fog often rolls across this land, leading many to believe that the area is haunted by the ghosts of those that used to live in this city.
+      
       `,
       
         lore:`
       Long before the rise of most of the Aeoth Plateau’s modern kingdoms, the Ruined Clifftop was the heart of a powerful civilisation, though for all its assumed splendour, very little is known about its history. Some historians theorise that the city may have been a trade colony for seafaring merchants, others believe that it was a land of wild magic and wizardry. At its height, this city would have supported tens of thousands of residents, likely rivalling the likes of Detheneer and Myconia as one of the biggest cities of the realm.
       
       Its decline remains one of the biggest mysteries for scholars of The Observatory. Arcane carbon-dating technology suggests the city was not destroyed in a single catastrophe but abandoned by its inhabitants over the span of decades. Construction projects appear to be left unfinished, and marketplaces seem to have been deserted with goods still inside. High Astrologer Kaleph has publicly stated his belief that the city slowly succumbed to a mundane economic collapse, though many of his peers have argued that the strange carvings found throughout the ruins, depicting stars and semi-humanoid figures, may suggest celestial or demonic involvement. 
+      
       `,
 
       ruler:
         "N/A",
+
+      ImportantPeople:
+      "N/A",
 
       dangerLevel: "66%",
 
@@ -488,14 +521,17 @@ export const locations = [
 
       image: "/locations/myconia.png",
 
-      description:
-        "Myconia is built from a nearly hundred-thousand-square-mile network of fungus. The city centre houses the Temple of The Mother, a towering white pyramid dedicated to their Goddess. The city is built around the temple in rings, the closer you get to the innermost regions, the less human, and more mushroom the architecture gets. Houses here range from simple brick cottages at the outermost regions of the city, to giant fungal puffball mansions that house families of nobles. The city Itself is built on long tunnels that stretch beneath the streets. Greenhouses are commonplace towards the outer reaches of Myconia, growing fruit and vegetables all year round, picked and sold only for trade as the Myconoids don't eat. That being said though, the trade exists to continue their steady supply of new bodies to sustain their short, temporary life spans. The docks at Myconia stretch the length of the shore, as trading ships from all over the Aeoth Plateau come to say farewell to loved ones, and donate them to the Myconoids for rebirth.",
+      description:`
+      Myconia is built from a nearly hundred-thousand-square-mile network of fungus. The city centre houses the Temple of The Mother, a towering white pyramid dedicated to their Goddess. The city is built around the temple in rings, the closer you get to the innermost regions, the less human, and more mushroom the architecture gets. Houses here range from simple brick cottages at the outermost regions of the city, to giant fungal puffball mansions that house families of nobles. The city Itself is built on long tunnels that stretch beneath the streets. Greenhouses are commonplace towards the outer reaches of Myconia, growing fruit and vegetables all year round, picked and sold only for trade as the Myconoids don't eat. That being said though, the trade exists to continue their steady supply of new bodies to sustain their short, temporary life spans. The docks at Myconia stretch the length of the shore, as trading ships from all over the Aeoth Plateau come to say farewell to loved ones, and donate them to the Myconoids for rebirth.",
+      
+      `,
       lore:`
       The History of Myconia tells a tale of constant change and adaptation as lives and professions bleed into one another with each change of body. Many Myconoids circle from farmers and clerics to traders and adventures. Once each seven years, a party of trained individuals are sent out by the Church in search of their Great Mother. Much of the populace volunteer for this honour, though only a few are granted leave. It is unsure how long Myconia has existed, but their great library is fascinating for any who travel to see it, rivalling even the grandeur of The Constellatory. Hidden away at the heart of the city, This library tells the stories of the Myconooid’s past lives, though many cannot remember those times, leaving speculation as to who the great figures of legend are, and if they still walk among the living in new bodies.
 
       The city is run and looked after by the Church of The Mother. Its council has five elected leads, with national polls being held to choose the city council each seven years. Civilians work together in the farmland, trading routes and monasteries for the good of all, in a democratic and largely socialist society. Healers are sent out to smaller churches on other continents where they are needed to help look after other Myconoid populations. The council itself always holds exactly five seats. The seat of the Holy, in charge of maintaining the church itself. The seat of the Tendril, in charge of keeping contact with other kingdoms and courts through Aeoth. The seat of Individual, responsible for looking after Myconoids inside and outside the city borders. The seat of Searching, in charge of keeping Myconia’s history and launching expeditions to search for The Mother. And finally, the seat of Plenty, responsible for trade and farming.      
 
       The Mother is heralded as the bringer of life for all Myconoids. Each year there is a great festival, where gifts are exchanged between friends in honour of the Great Release. There has only ever been one Recorded so almost all Myconoids spend a week in celebration, praising the mother and the birthday of its populace. Myconoids believe that the Great Release was the advent of their civilisation, with The Mother releasing her spores through the land, which would eventually grow into the Myconoid population that now lives through the Aeoth Plateau.
+      
       `,
 
       ruler:
@@ -525,6 +561,7 @@ export const locations = [
       Goilth, of the seat of Plenty
 
       Goilth is a CG Myconoid in the body of an impressively plump Troll. She is particularly rude to most strangers, though she is known for being a softie underneath the hard exterior. She has flowing brown hair and wears delicate red robes. Despite her elegant clothing and regular trips to the alchemist though, she has not been able to keep her body from decomposing and as such, deep patches of flesh and bone can be seen on her legs and arms. Goilth is known for her striking ability to barter and is one of the few beings to have dealt with Hj of Kark and not come out skint.
+      
       `,
       dangerLevel: "22%",
 
@@ -568,6 +605,7 @@ export const locations = [
       The thawing of the ice slowly revealed volcanic lowlands. Geysers shoot from rock pools, black smoke billows into the sky and the air is thick with the steam of vaporised snow. These areas are extremely environmentally hostile and as such, harbour few wildlife populations. However, the volcanic minerals in the soil have given a perfect habitat for new species of vibrant flora. Most of these volcanic regions are barren, though it is not uncommon to find large areas of stunningly beautiful wildflowers rolling over hills and canyons. Of the few animal varieties found in these regions, small, brightly feathered, omnivorous raptors are the most common. They walk the wildflower hills, hopping over lava pools and feasting on the berry bushes. They are rarely seen, though questions have been raised about how these fluffy bipedal dinosaurs are able to survive in the presence of lava. Some suggest frost magic, some suggest that they are a mirage, some say that nature should just be enjoyed without constant digging for knowledge.
 
       The jungle biome most commonly separates the icy and volcanic regions. These lands are rich with undocumented animals and plants – mostly because it all tries to kill you. Giant flytraps (sometimes called Venus-Pteranodon-Traps) have been known to grab adventurers from their trails. Herds of stampeding Sauropods have caused many unfortunate deaths among travellers. Jungle vines creep and grab ankles and venomous insects can end an unsuspecting overnight without them ever knowing that they were in danger. This land presents the most beautiful biome found through the land of Frester, and yet also the most perilous.
+      
       `
       ,
       lore:`
@@ -576,6 +614,7 @@ export const locations = [
       Before the Twin Crown system united the realm, Frester was divided into scattered war-clans that survived by following the migrations of prehistoric herbivores through the land. Mammoth riders traversed the frozen plains and tribes living on the borders between icy and volcanic areas hunted alongside raptor packs. Some clans even built entire travelling settlements upon the backs of gigantic Sauropods. Conflict between the clans was common, as fighting for territory meant a greater chance for survival. Legends claim that the first ruler of Frester, believed to be of the Meltwater lineage, united the warring tribes not through battle, but by taming a horrifying white Tyrannosaur known as the “Winter Fang”. The beast is said to have carried them through the blizzards, with the cautious clans of the land following in tail, and to the site where the citadel of shards would subsequently be built. Whilst most modern historians dismiss the story as folklore, enormous three-toed footprints are still occasionally discovered near the capital.
       
       The rulers of Frester govern through a system known as the Twin Crowns. The Frost Crown is inherited through royal lineage and is responsible for the law and defence of the realm. Alongside the Frost Crown, the Tide Crown rules. This is a position elected by the villages, beast clans and travelling settlements of Frester. The Tide Crown rules over the wilderness of the kingdom and handles matters regarding the wellbeing of oft forgotten tribes and clans. This system was created following the Stagnation, when the ancient beast clans were forced to unite for their survival as the land changed so rapidly. Since then, the Twin Crowns have ruled together as symbols of both civilised society and wild freedom.
+      
       `,
 
       ruler:`
@@ -599,6 +638,7 @@ export const locations = [
       Keeper Ilyon
       
       Keeper Ilyon serves as the Master Archivist of the Citadel of Shards. He is responsible for preserving Frester’s collection of historical records and expedition journals. Ilyon is a N Humbolt Pengkin male, standing about 5 feet tall with bright pink plumage around his neck and white spots along his pristine black and white feathers. He wears small round glasses and is generally seen sporting a well-kept set of blue and black robes. Unlike most Pengkin of the capital, Ilyon seems unconcerned with politics or military matters and instead spends his time studying the snaking caverns beneath the kingdom. He is soft-spoken and polite, though known to become obsessively focused whenever ancient history is discussed. Many explorers seek out his guidance before leaving for the Fresterian jungles or volcanic lowlands, as his archives contain likely the most reliable maps of the region.
+      
       `,
 
       dangerLevel: "64%",
@@ -645,7 +685,7 @@ export const locations = [
 
         `,
 
-      dangerLevel: "64%",
+      dangerLevel: "44%",
 
       left: "76%",
       top: "44%",
@@ -672,7 +712,7 @@ export const locations = [
 
       dangerLevel: "31%",
 
-      left: "88%",
+      left: "58%",
       top: "37%",
     },
 
@@ -695,7 +735,7 @@ export const locations = [
 
       `,
 
-      dangerLevel: "71%",
+      dangerLevel: "51%",
 
       left: "91%",
       top: "42%",
@@ -706,15 +746,46 @@ export const locations = [
       name: "Shivvering",
       type: "country",
 
-      description:
-        "Ancient dwarven fortress carved into the mountains.",
-      lore:
-        "",
+      image: "/locations/shivvering.png",
 
-      ruler:
-        "",
+      description:`
+      The country of Shivvering is known for its icy temperatures, endless snow and erratic lightning patterns. Travelling here is a task that shouldn’t be taken lightly, as many adventurers have perished in the lonely forests. Though for those that have the correct equipment and knowhow, Shivvering is a region of almost unparallelled natural beauty. The aurora monoliths stand as giant crystalline towers, singing angelic hymns faintly. The sweet treats of Icington are second to none, with almost a Plateau-wide monopoly on cinnamon buns, sticky toffee pies and luscious velvet gateaux. The Hollythorn snow fields sweep over a vast expanse, with reports of abominable snowmen lurking in the caves at the bottom of the Bleakspire Mountains. Wild hares and deer are common, songbirds flutter among the trees and direwolves prowl the undergrowth through the nights.
+      
+      In the capital city of Snowley, survival  is a matter of thick stone and constant vigilance. The city is a claustrophobic network of stone bunkers designed to hold the weight of an endless snowfall. The streets, for the most part, are entirely enclosed by stone roofs, creating a maze-like labyrinth that has trapped many an adventurer. The city is heated by communal fires, and abjuration magic is treated as a survival necessity. The city’s mages are employed as wardens, employed to carve and maintain the insulating runes that keep this city’s inhabitants from the cold. The city is known for its excellent variety of root vegetable farms, with Snowley parsnips being known for their smooth texture and sweet taste. The culture here is not as grim as one may expect though. The people have learnt to live together, focusing their efforts on community survival. This has led to Snowley being a very friendly city, where within a district, most people will know each other personally. The one exception to this comes when someone is found to be guilty of “heatletting”, where they may leave a door open, or waste coal, and put others in danger of falling victim to the freezing temperatures.
 
-      dangerLevel: "Low",
+      `,
+      lore:`
+      Perhaps the most famous of all Shivverian wildlife, this nation is known historically for its dragons. King Garth famously rode his great dragon Torhaem into battle, fighting alongside his Augurian neighbours at the battle of the Semidoubletwisting. Though dragons have not been seen in a millennium, there are rumours of  dragon sightings in Nacht and some suspect that Shivvering may have something to do with this. The Iceburn lineage have been known for generations as keepers of the draconic ancestry and are said to be in contact with a secret dragonborn monastery hidden up in the Bleakspire Mountains.
+      
+      Unlike Crystellion, the Aurora Monoliths found in Shivvering are not protected by law and there is a prosperous trade network that runs out of Hearthfire Island. This business is run by Lord Sterling Graves, one of the richest men to be found in The Land of the Four Seasons. Monolith pilfering is a dangerous moneymaker though, as the local wildlife will defend their home with murderous intent. This means that despite the abundance of crystals to be found, they are a rare commodity, often only affordable by the wealthiest few.
+
+      `,
+
+      ruler:`
+      Sir Martin Iceburn, the Fair
+
+      Sir Martin is a LG Half-Elf with long silvery hair and strikingly blue eyes. He has a kind smile but a stature that shows his battle-readiness. He is usually seen wearing leather armour with silver embellishments, a deep blue cape and a sword at his side, made entirely from ice. He is well respected by all and is known, similarly to his ancestors, as a steadfast pacifist. His proficiency with Abjuration magic is rivalled by very few, and he is known to come to the aid of other nations when they may be experiencing difficulties. His people mostly have a deep respect for him, though some argue that he does not pay close enough attention to the nobility of Hearthfire Island and their supposed evildoings. 
+
+      `,
+
+      ImportantPeople:`
+      Lady Vespera Malatesta
+
+      Lady Malatesta is a cold, calculated businesswoman. She wears emerald green silk robes and has her greying hair tied up in a bun. Her eyes seem to be stuck in a permanent squint, and her angular features don’t help the hag aesthetic. She is of old money and loosely oversees the mines of Hallows Village, where she demands long shifts for low pay and has multiple serious allegations of fostering dangerous work environments. Suffice to say, Lady Malatesta is not well liked, though among her peers, she is a significant donor to Lord Graves’ crystal mining operations and therefore is respected for her wealth.
+
+
+      Lord Sterling Graves
+
+      Lord Graves is an unpleasant NE Human focused on just one thing: gold. He will treat others poorly unless he believes they may be able to make him some money. Lord Graves’ operations in the Aurora Monoliths face extreme scrutiny from wildlife conservation groups, such as B.O.N.E. He is a red-faced man with thinning hair combed over his scalp. He wears extravagant tuxedos, though the waistcoats often look to be desperately holding on for life as his bulbous belly pushes on the poor buttons. Very few hold a positive impression on Lord Graves, but he believes that good will can always be bought for a high enough price.
+
+
+      Madam Sybill
+
+      As an elderly dowager, Madam Sybill is often overlooked among her peers. Despite this, she is a trusted advisor to Sir Martin Iceburn and is almost certainly the richest person in Shivvering. She is known for her humble upbringings in Icington, where she worked as a baker and went on to craft an array of the finest delicacies the Plateau has ever known. Her business has spread far and wide, with “Sybill’s Delights” being a chain bakery found in cities far and wide. Sybill was born blind, but says that this has only improved her other senses – namely her taste. She bakes with muscle memory, smelling with her long, crooked nose and feeling around with bony fingers. She has curly grey hair down to her waist, deep wrinkles across her face and her eyes are milky white. She often wears loosely fitting green robes and carries around a knobbly cane. Despite her hunchback, lack of vision and age, she is surprisingly lively and agile. Madam Sybill is almost universally loved, though many of Shivvering’s wealthiest begrudgingly put up with her playful attitude.
+
+      `,
+
+      dangerLevel: "39%",
 
       left: "65%",
       top: "61%",
@@ -727,15 +798,41 @@ export const locations = [
 
       image: "/locations/augur.png",
 
-      description:
-        "Ancient dwarven fortress carved into the mountains.",
-      lore:
-        "",
+      description:`
+      Augur, often known as the Autumnlands, is a country of rolling hills and farmland. The Red Forest holds untold mysteries, the farming towns of Harvestdale and Cider Mill provide the majority of the nation’s exported goods, the cranberry bogs to the north lead a dangerous path into Shivvering and the famed Western Pumpkin Fields are known for their warrior farmers. This is a land of great natural beauty, though there is known to be a serious problem here with giant spiders. The people of Augur are generally not well off, with the exception of a few select communities in the capital city: Librarium Augum. 
 
-      ruler:
-        "",
+      The capital of the Autumnlands is not a traditional city, but a single, continent-renowned megalibrary. Understanding that his realm's magic causes all things to decay, King Sectus Witherleaf became obsessed with archiving the world's knowledge. Even after his death, the Necromancers of the Librarium carried on this practice. The Grand Ossuary's towering bookshelves are built into the towering ribcage of the ancient landwhale Baphthol, housing millions of tomes. Necromantic magic here is used not for war, but for preservation. Spells are cast to hold decaying parchment in a state of permanent near-death. The library's curators are predominantly spectral scribes who tirelessly copy fading texts. To gain citizenship in the Librarium, travellers must pay a toll not in gold, but in unique memories or rare books, which are catalogued by the city's archivist-mages.
 
-      dangerLevel: "Low",
+      `,
+     
+      lore:`
+      About 1000 years ago, war broke out with Iltharion due to the different political states of the two nations. Iltharion operates as a theocracy, whereas Augur was a strict magocracy. The stories say that King Sectus insulted the Iltharion gods and in return, her received an army at his gates within a week. King Sectus died towards the end of the war, slain in front of his right-hand soldier: Sir Jasper of the Pumpkin Fields. Sir Garth Iceburn of Shivvering flew Torhaem into the battle and just when the Augurian forced appeared to be winning, a wave of nullness passed over the Plateau – the genesis of The Great Stubbornness. The King’s heir, the playboy prince Elias Witherleaf took the throne, unsteady at first, but with his first action as king he ended the war. This was the Semidoubletwisting. A spell of almighty proportions, it ripped through the Iltharion army, through their portals and into their city. Soldiers and civilians alike split in two as half of their bodies crunched and split as they twisted in two. Tens of thousands of lives were lost that day. With this egregious act, Elias refused the throne and disappeared into obscurity. Few now know of his whereabouts, but rumours of a secret organisation float throughout the land, suggesting that he may still be out there somewhere.
+      
+      `,
+
+      ruler:`
+      Without King Elias Witherbloom, Augur does not have a formal ruler. This task is instead left to the coalition council of Ochre Rotbain, C and The High Honoured Senior Archivist Timothy Goats.
+      
+      `,
+
+      ImportantPeople:`
+      Ochre Rotbain
+
+      Ochre Rotbain works from the Librarium Augum as a logistical overseer of the farmlands of Augur. He is a LN Bugbear with brown-grey fur and notably bushy eyebrows. He is softly spoken and can often be found easily in a crowd for his booming laugh. Ochre is generally seen wearing orange, brown and green robes, usually with a symbol of a leafless tree on a pin. He is known for being intelligent and kind and is respected among the farmers due to his hardy upbringing in the Western Pumpkin Fields. Rumour has it that he is a powerful druid and many purport that he has a secret greenhouse where he creates unusual plant hybrids, though most of this speculation is thought of as nonsense when it is coming from a student that has smoked a little too much emberweed.
+
+
+      C
+
+      Very little is known of C. They appear as a hunched figure in grey robes, scrolls tied to shoulder straps and a long staff that they use to walk with. No civilians have ever heard C talk, nor make any noise for that matter, and some believe that not even The High Honoured Archivist Timothy Goats or Ochre Rotbain have properly communicated with it. The extent of the public knowledge is that C is responsible for keeping powerful ancient artifacts safe, though their place on the council is dubious at best, leaving many to wonder who they really are and why they hold so much influence over the country.
+
+
+      The High Honoured Senior Archivist Timothy Goats
+
+      The High Honoured Senior Archivist Timothy Goats, as he demands to be called by his full title, is a N Gobboc male, with golden and green plumage, a wrinkly red comb that wobbles as he walks. He thinks very highly of himself and is exceptionally snobby, though most put up with him due to his excellent management of the Librarium Augum. The High Honoured Senior Archivist Timothy Goats is responsible for the day-to-day upkeep of this city and is often seen at political events with the leaders of other nations or giving public addresses each morning for the news, where he will scream at the top of his lungs, waking most of the city up. Despite being so very hard to like, He is almost singularly responsible for the Librarium Augum’s archiving, checking in regularly with even the young trainees and giving them insightful tips. 
+
+      `,
+
+      dangerLevel: "51%",
 
       left: "64%",
       top: "73%",
@@ -811,6 +908,7 @@ export const locations = [
       Being on the edge of The Wilds, the people of Crystellion’s lives are deeply intertwined with wild magic. Unlike the scholars of The Observatory or the fearful rulers of Detheneer, citizens here see magical instability as a beautiful facet of nature. Crystal growths are worshipped and protected, magical anomalies are treated as societal curiosities and even the architecture bends around these crystal monoliths. Due to this mostly not-understood arcana, staircases can often lead somewhere slightly different than before and reflections in mirrors may be seen to move a little too slowly.
 
       The city itself is largely divided into terraces carved directly into the cliffside. The wealthiest districts spiral up the sides of gargantuan crystal towers, whereas some of the poorer regions descend down onto the misty cliffs, where miners and tradespeople make their living. It is worth noting though that despite the prevalence of mining in Crystellion, actually mining any sacred crystals is highly illegal. There is an underground crystal trade, mostly for the purposes of jewellery, but the majority of miners on the cliffsides work for natural deposits of gold and iron. The constant sound of the great waterfall echoes throughout the city day and night, accompanied by the faint humming resonance of the crystal formations embedded throughout the stone. Some find peace in the constant ethereal white noise, some say that it has addled the minds of those living in Crystellion.
+      
       `,
 
       lore:`
@@ -819,6 +917,7 @@ export const locations = [
       Crystellion is among the newest of the Plateau’s cities and its politics reflect that. There has been no long-term monarchy or government formed in the 500 years since the city began taking form, meaning that periodically, an uprising can occur and the system of power will be overthrown. The current political system is that of a theocratic council, with one representative of each Amphi, Kestra and Prescelle holding the highest governing seats. There are talks of discontent among the people, with many faiths wishing to be represented better within the political elite, though most traditionalists wish to keep the council limited to just the three main Gods of the area. There aren’t talks of a new uprising being on the horizon yet, but the instability is rising and scholars from The Observatory have warned about a potential clash in the near future.
       
       Crystellion’s main exports are its natural ores. These are shipped all across the realm, though Detheneer, Sumnersburg and Augur are the largest buyers. Due to the abundance of gold, platinum and iron in this region, common money is generally not worth much outside of the ports. The most common currency here is enchanted incense sticks, with Crystellian citizens valuing faith and community over currency and material goods. Some believe that the rich abundance of metals came from Amphi blessing the land. Others believe that, being at the edge of the world, the endless ether below has seeped through the cliffs and turned rock into precious metals. None know the truth, though few people care enough to argue the topic - this is, after all, a land of theocratic peace.
+      
       `,
 
       ruler:`
@@ -835,6 +934,7 @@ export const locations = [
       Lady Celestine Haeth - Cardinal of Prescelle
 
       Lady Celestine is a CG Cyclopian female that many suspect to be a few hundred years old. She is well known for holding her massive, beady eye in her hands, with a grotesque tendril snaking back to her eye socket. She walks through the innermost city frequently, watching people go about their day with a blank look on her face. She wears black and purple robes that are slightly raggedy but clearly expensive. Many here don’t trust her due to the creepiness of her eye, but she has gained a reputation for being a powerful divination wizard and being surprisingly nice to those wanting to get to know her.
+      
       `,
 
       ImportantPeople:`
@@ -846,11 +946,36 @@ export const locations = [
       Belladonne Wispveil
       
       Belladonne is one of the most highly respected illusionists in Crystellion and serves as the curator of the House of Reflections. This place is an oddly arcane artistic gallery where memories and dreams are shown through enchanted mirrors. Kings, Queens, Lords and Ladies have all been known to travel from across the Plateau to witness her exhibitions, though many are not happy with what they see. There are rumours that the mirrors sometimes show the future, rather than just reflections or the past, though Belladonne insists that this is “just part of the artistic wonder!”. She is a CN Tiefling with shoulder-length purple hair and dark red skin. She dressed in extravagant multicoloured robes that often look like she picked random fabrics and sewed them together haphazardly. She speaks dramatically and treats most interactions with the same splendour that you would expect from an actor in a theatre. 
+      
       `,
 
       dangerLevel: "17%",
 
       left: "84%",
       top: "85%",
+    },
+
+    {
+      id: 30,
+      name: "Land of the Four Seasons",
+      type: "info",
+
+      lore:`
+      Long before the current age, the Land of the Four Seasons was plagued by disastrously chaotic weather. Lightning strikes could open ravines, tsunamis would crash against the western cliffs, hurricanes tore through settlements and heatwaves could bring years of drought. This led to a coalition of the era’s four most powerful Archmages, known as the Seasonic Quadrate.
+
+      Valerius Firebane, a wielder of great Evocation magic. He was known to protect his lands from the harshest of weather with his brute arcane strength. If there was a hurricane, he would create great walls of ice to protect his people’s lands from the winds. Should there be a thunderstorm, he could light all hearths in a twenty-league radius. Though it should be noted that he was also known for being exceptionally boastful, so many history books from this era are often to be taken with a grain of salt.
+
+      Elara Blossoms, known as a great stoic master of Transmutation magic. She could turn rain into petals, or lightning into a rainbow. Elara was widely considered the weakest of the four members of the Quadrate, though she was also known as the most guarded when it came to showing her true strength. Elara preferred to let nature run its course, unless that nature became too destructive for her to not interfere.
+
+      Silas Witherleaf, the war forged Necromancer. Silas was respected among his people, but is largely remembered now for his part in starting the great war between Iltharion and Augur. He would use necromantic arcana to preserve buildings through the hardiest of storms and regenerate damaged crops. Silas believed that death was only natural and refused to use his powers on humans, though he was an early pioneer of necromancy being used for archiving ancient tomes.
+
+      Othelia Iceburn, the pacifist Abjuration mage. Othelia was respected by all, even her (generally) volatile compatriots in the Quadrate. Known as Othelia the Fair, she would cast magical shields big enough to cover entire cities when tsunamis came and she is rumoured to have even cast a banishment spell so powerful as to erase the largest tornado ever seen from existence on the mortal plane. She was the brains behind the Seasonic Quadrate and was known as the incredibly intelligent voice of reason.
+
+      To create a stable climate, the Seasonic Quadrate gathered at the Baros Loch to cast a spell that they called “The Grand Theorem”. This was meant to be a massive ritual, the likes of which the Plateau had never seen before, with the aim of recalibrating the meteorological leylines of the realm so that hopefully, the severe weather anomalies could finally come to an end. Unfortunately though, even for Othelia’s best efforts, arguments broke out. Valerius was angry that he could not lead the ritual, Silas did not truly believe in the cause (he only agreed to take part in the ritual as he owed Othelia a favour) and Elara thought that recalibrating nature was a mistake and only came to make sure that Valerius didn’t do anything too drastic. Despite Othelia’s tireless work to get these three to work together, their arguments led to a colossal arcane crash during the rituals casting. This led to a feedback loop, which caused the largest explosion of raw magic ever seen. The land was fractured into four tectonic plates, each permanently locked in its own endless extreme seasonal weather. This is how the Land of the Four Seasons came to be.
+      
+      `,
+
+      left: "70%",
+      top: "70%",
     },
   ];

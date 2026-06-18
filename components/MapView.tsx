@@ -16,6 +16,7 @@ import {
   Waves,
   Flag,
   House,
+  Component,
   X,
 } from "lucide-react";
 
@@ -263,6 +264,8 @@ export default function MapView() {
                               ? "bg-green-500"
                               : location.type === "sea"
                               ? "bg-purple-500"
+                              : location.type === "info"
+                              ? "bg-orange-500"
                               : "bg-yellow-500"
                           }
                         `}
@@ -301,6 +304,8 @@ export default function MapView() {
                             ? "bg-green-600/90"
                             : location.type === "sea"
                             ? "bg-purple-600/90"
+                            : location.type === "info"
+                            ? "bg-orange-600/90"
                             : "bg-yellow-600/90"
                         }
 
@@ -320,6 +325,8 @@ export default function MapView() {
                         <Trees size={16} />
                       ) : location.type === "sea" ? (
                         <Waves size={16} />
+                      ) : location.type === "info" ? (
+                        <Component size={16} />
                       ) : (
                         <Flag size={16} />
                       )}
