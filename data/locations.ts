@@ -894,15 +894,29 @@ export const locations = [
       name: "Sprigvale",
       type: "country",
 
-      description:
-        "Ancient dwarven fortress carved into the mountains.",
-      lore:
-        "",
+      image: "/locations/sprigvale.png",
 
-      ruler:
-        "",
+      description:`
+      The country of Sprigvale is one of the most jarringly polarised locations to be found throughout the Aeoth Plateau. The wildflower gardens of Orchidia Manor offer the most beautiful horticulture displays of the realm and the delicate cherry blossom forests to the east are a popular retreat for kind-natured woodland spirits. Despite this, danger can lurk through Sprigvale at the most unexpected of locations. Fey are commonplace through the south and east of the country and many that live outside of cities can be unpredictable and dangerous. Cute bunnies may grow long spiky teeth and chase travellers, fireflies can burst into flames and attack, the path back home may not still be there when you look behind you… 
+      
+      The capital city of Sprigvale is Aegis Blossom. This is a city that was grown through centuries of Transmutation, where all types of trees, vines, shrubs and flowers have been artfully shaped to build a multi-tiered metropolis. Buildings are made from thick layers of vines, bridges snake up the city with vibrant flowers and though some stone architecture can be seen in many homes, they are almost always held together by some sort of floral growth. Here, paths can shift overnight, seemingly with a mind of their own. Fire is outlawed here, for obvious reasons, and any civilians in possession of an unlicensed flame risk being banished, or worse.
+      `,
 
-      dangerLevel: "Low",
+      lore:`
+      The Sprigvale has a relationship with the Fey unlike any other region found through the Aeoth Plateau. Rumours speculate as to why, with some suggesting that the border between the Fey realms and the Plateau may be thinner here, and others theorising some sort of portal or beacon that brings Fey to this country. For the most part, the Fey living here are peaceful, preferring to keep their distance from the mortal residents of the Sprigvale, though through the eastern cherry blossoms of the Lush Jungle, many unsuspecting travellers have found themselves hunted or tricked by malevolent Fey. The city of Fey’s Retreat houses the majority of their population. This city resembles no other, with odd geometric architecture and buildings that don’t have any obvious purpose. This is a perilous destination for mortal travellers, though with enough confidence and knowhow, trade with the Fey can be an exceptionally profitable endeavour.
+      
+      Sprigvalean culture is heavily reliant on biological experimentation. Transmutation wizards work to create hybrid animals to solve issues of ecological stability and transportation. Plants are woven with special properties, some medicinal, some culinary and some for recreation. This business makes up for the majority of income within the Sprigvale. Whilst some large-scale operations have tried to turn this into a country-wide monopoly, the prevalence of locally sourced altered flora and fauna can help even peasant recluses make a stable living. Because of this, plants and animals are treated with exceptional respect throughout this nation, with most of the populace having a vegetarian diet and living in small villages surrounded by nature.
+
+      `,
+
+      ruler:`
+      Bret and Bagtha Blossoms
+      
+      The conjoined twins, Bret and Bagtha Blossoms are an odd pair. Bret was born first. He is an elderly human man, with thinning messy grey hair, deep wrinkles over his face and a spindly pair of silver glasses. Bagtha is his younger sister, a head that sprouted from Bret’s neck when he was about 200 years old. Due to their heritage descending from the Seasonic Quadrate, these two have lived far longer than most other humans. Bagtha has scruffy light brown hair and thick round glasses. They are usually seen wearing colourful patchwork robes and their own thin golden crowns, with an intricate floral pattern and colourful gemstones. Both are known for their playful bickering, though when in times of need, they can be ruthlessly decisive. Having to rule a nation of Fey, these two will not stand for any sort of trickery or manipulation and have grown very observant of the individuals that make up their court. Despite their reasonably suspicious nature, they are known as benevolent rulers and caring people. That being said though, popularity among the people is not quite enough to quell any rumours that surround Bagtha’s birth, hushed whispers suggesting that she may be the result of dark magic or a Fey deal.
+
+      `,
+
+      dangerLevel: "50%",
 
       left: "82%",
       top: "57%",
